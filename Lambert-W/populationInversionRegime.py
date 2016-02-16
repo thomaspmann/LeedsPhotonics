@@ -122,8 +122,8 @@ def video(t, tau, sigma_21, n, n20):
 
 def contourPlot(t, tau, sigma_21, n):
     plt.figure()
-    x = np.linspace(0.01, 6, 200)
-    y = np.linspace(0.01, 1, 200)
+    x = np.linspace(0.01, 6, 200)  # Alpha
+    y = np.linspace(0.01, 1, 200)  # n20
     X, Y = np.meshgrid(x, y)
 
     zs = np.array([decayTime(t, alpha, tau, sigma_21, n, n20) \

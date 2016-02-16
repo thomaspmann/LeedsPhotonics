@@ -150,8 +150,8 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20):
 
 def contourPlot(t, tau, sigma_12, sigma_21, n):
     plt.figure()
-    x = np.linspace(0.001, 2, 200)
-    y = np.linspace(0.001, 0.1, 200)
+    x = np.linspace(0.001, 2, 200)  # Alpha
+    y = np.linspace(0.0001, 0.005, 200)  # n20
     X, Y = np.meshgrid(x, y)
 
     zs = np.array([decayTime(t, alpha, tau, sigma_12, sigma_21, n, n20) \
@@ -183,7 +183,7 @@ def contourPlot(t, tau, sigma_12, sigma_21, n):
 
     plt.title('tau %.1f, sigma_12 %.1f, sigma_21 %.1f, n %.1f' \
             % (tau, sigma_12, sigma_21, n))
-    plt.savefig('Images/contourfplot3.png', dpi=300)
+    plt.savefig('Images/contourfplot5.png', dpi=300)
 
     plt.show()
 
@@ -198,8 +198,8 @@ if __name__ == "__main__":
     n = 1
     n20 = 0.001
 
-    differentAlphas(t, tau, sigma_12, sigma_21, n, n20)
+    # differentAlphas(t, tau, sigma_12, sigma_21, n, n20)
     # Warg(t, tau, sigma_12, sigma_21, n, n20)
-    # video(t, tau, sigma_12, sigma_21, n, n20)
+    video(t, tau, sigma_12, sigma_21, n, n20)
     # threedPlot(t, tau, sigma_12, sigma_21, n, n20)
     # contourPlot(t, tau, sigma_12, sigma_21, n)
