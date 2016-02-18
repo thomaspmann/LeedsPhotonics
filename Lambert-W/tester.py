@@ -6,10 +6,10 @@ from numpy import exp, log, e
 from tqdm import tqdm
 
 
-def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
+def lambertDecay(t, alpha, tau, sigma_12, sigma_21, n, n20):
 
-    B = 1 + (1+r/2))rho*d*sigma_12*n
-    A = ((1+r/2))rho*d*(sigma_12+sigma_21)) / B
+    B = 1 + alpha*sigma_12*n
+    A = (alpha*(sigma_12+sigma_21)) / B
 
     arg = -A*n20*exp(-(t/(B*tau))-(A*n20))
 
@@ -17,13 +17,13 @@ def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     assert min(arg) >= -1/e, \
     'Lambert W Argument will give an imaginary result.'
 
-    return -lambertw(arg).real/A
+    return -lambertw(arg,-1).real/A
 
 
-def decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
-    y = lambertDecay(t, r, tau, sigma_12, sigma_21, n, n20)
-    y = y/max(y)
-    ind = np.where(y <  1/e)
+def decayTime(t, alpha, tau, sigma_12, sigma_21, n, n20):
+    data = lambertDecay(t, alpha, tau, sigma_12, sigma_21, n, n20)
+    data = data/max(data)
+    ind = np.where(data <  1/e)
     ind = ind[0][0]
     decay = t[ind]
     # try:
@@ -35,9 +35,9 @@ def decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     return decay
 
 
-def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
+def differentAlphas(t, tau, sigma_12, sigma_21, n, n20):
     """
-    Fit the function with different r values
+    Fit the function with different Alpha values
     """
 
     plt.figure()
@@ -45,21 +45,21 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.ylabel('$n_2$/max($n_2$)')
     plt.xlabel('time (ms)')
 
-    for r in [0.002, 0.1, 0.3, 1, 2, 5]:
-        y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+    for alpha in [0.002, 0.1, 0.3, 1, 2, 5]:
+        y = lambertDecay(t, alpha, tau, sigma_12, sigma_21, n, n20)
 
-        plt.plot(t,y/max(y), label=r)
+        plt.plot(t,y/max(y), label=alpha)
 
     plt.xlim(min(t),max(t))
     plt.yscale('log')
-    plt.legend(loc='best', title='r')
+    plt.legend(loc='best', title='alpha')
     import os
-    fname = os.path.join('Images', 'decaysVsrGeneraln20_0p9.png')
+    fname = os.path.join('Images', 'decaysVsAlphaGeneraln20_0p9.png')
     # plt.savefig(fname, dpi=300)
     plt.show()
 
 
-def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
+def video(t, tau, sigma_12, sigma_21, n, n20):
     """
     Save multiple plots which can then be converted to a video using ffmpeg.
 
@@ -79,9 +79,9 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     """
 
     i = 0
-    for r in tqdm(np.linspace(0.01, 10, 500)):
+    for alpha in tqdm(np.linspace(0.01, 10, 500)):
         i +=1
-        y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+        y = lambertDecay(t, alpha, tau, sigma_12, sigma_21, n, n20)
         
         plt.figure()
         plt.axhline(1/np.e, ls='--', color='k')
@@ -90,15 +90,15 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
         plt.xlim(min(t),max(t))
         plt.ylim(1E-3,1)
         plt.yscale('log')
-        plt.plot(t,y/max(y), label=r)
+        plt.plot(t,y/max(y), label=alpha)
         plt.title('tau %.1f, sigma_12 %.1f, sigma_21 %.1f, n %.1f, n20 %.1f' \
             % (tau, sigma_12, sigma_21, n, n20))
-        plt.legend(loc='lower left', title='r')
+        plt.legend(loc='lower left', title='alpha')
         plt.savefig('Images/file%04d.png' % i, dpi=300)
         plt.close()
 
 
-def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
+def threedPlot(t, tau, sigma_12, sigma_21, n, n20):
     from mpl_toolkits.mplot3d import axes3d
     from matplotlib import cm
 
@@ -108,8 +108,8 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     y = np.linspace(0.1, 1, 200)
     X, Y = np.meshgrid(x, y)
 
-    zs = np.array([decayTime(t, r, tau, sigma_12, sigma_21, n, n20) \
-        for r,n20 in zip(np.ravel(X), np.ravel(Y))])
+    zs = np.array([decayTime(t, alpha, tau, sigma_12, sigma_21, n, n20) \
+        for alpha,n20 in zip(np.ravel(X), np.ravel(Y))])
 
     Z = zs.reshape(X.shape)
 
@@ -118,21 +118,21 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     cset = ax.contour(X, Y, Z, zdir='x', offset=--8, cmap=cm.coolwarm)
     cset = ax.contour(X, Y, Z, zdir='y', offset=1, cmap=cm.coolwarm)
 
-    ax.set_xlabel('r')
+    ax.set_xlabel('Alpha')
     ax.set_ylabel('$n_{2,0}$')
     ax.set_zlabel('Decay Time')
 
     plt.show()
 
 
-def contourPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
+def contourPlot(t, tau, sigma_12, sigma_21, n):
     plt.figure()
-    x = np.linspace(0.001, 2, 200)  # r
+    x = np.linspace(0.001, 2, 200)  # Alpha
     y = np.linspace(0.0001, 0.005, 200)  # n20
     X, Y = np.meshgrid(x, y)
 
-    zs = np.array([decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d) \
-        for r,n20 in zip(np.ravel(X), np.ravel(Y))])
+    zs = np.array([decayTime(t, alpha, tau, sigma_12, sigma_21, n, n20) \
+        for alpha,n20 in zip(np.ravel(X), np.ravel(Y))])
 
     Z = zs.reshape(X.shape)
 
@@ -150,7 +150,7 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
                   hold='on')
 
 
-    plt.xlabel('r')
+    plt.xlabel('Alpha')
     plt.ylabel('$n_{2,0}$')
     # Make a colorbar for the ContourSet returned by the contourf call.
     cbar = plt.colorbar(CS)
@@ -167,23 +167,15 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
 if __name__ == "__main__":
 
-    # Time to simulate over
-    t = np.linspace(0,200,1000)
-
     # Define parameters
-    tau = 10            # Radiative decay rate
-    rho = 1E21          # Density of Er ions (cm^-2)
-    d = 1E-4            # Thickness of slab (cm)
+    t = np.linspace(0,100,1000)
+    tau = 10
+    sigma_12 = 1
+    sigma_21 = 1
+    n = 1
+    n20 = 0.001
 
-    ## DOI: 10.1063/1.366265
-    sigma_12 = 4.1E-12  # Absorption cross-section (cm^2)
-    sigma_21 = 5E-21    # Emission cross-section (cm^2)
-
-    n = 1*rho           # Total number of excited ions 
-    n20 = 0.001*rho     # Number of excited ions at t=0
-
-
-    # varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
-    video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-    # threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-    # contourPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+    differentAlphas(t, tau, sigma_12, sigma_21, n, n20)
+    # video(t, tau, sigma_12, sigma_21, n, n20)
+    # threedPlot(t, tau, sigma_12, sigma_21, n, n20)
+    # contourPlot(t, tau, sigma_12, sigma_21, n)
