@@ -57,51 +57,38 @@ class decayMeasure():
         print("Sampling Done")
 
         dataA = self.ps.getDataV("A")
-        
-        plt.figure()
-        dataTimeAxis = np.arange(self.res[1]) * self.res[0] * 1E3
-        plt.plot(dataTimeAxis, dataA, label="Waveform")
-
-        # fs = self.sampleRate
-        # dataTimeAxis = np.arange(0,fs*np.size(dataA),fs)
-        # plt.plot(dataTimeAxis,dataA, label="Waveform")
-
-        plt.grid(True, which='major')
-        plt.title("Picoscope 5000a waveforms")
-        plt.ylabel("Voltage (V)")
-        plt.xlabel("Time (ms)")
-        plt.legend()
-        # plt.savefig('data.png', dpi=500)
-        # plt.show()
-        plt.close()
 
         return dataA
-                             
+
+    def accumulate(self):
+
+        fig = plt.figure()
+        plt.ion()
+        plt.show()
+
+        dataTimeAxis = np.arange(self.res[1]) * self.res[0] * 1E3
+        blockdata = np.array(0)
+        for i in range (0, 5):
+            print("Measurement %d" % i)
+            dm.armMeasure()
+            data = dm.measure()
+            blockdata = blockdata + data
+
+            plt.clf()
+            plt.plot(dataTimeAxis, blockdata, label="Waveform")
+            plt.grid(True, which='major')
+            plt.title("Picoscope 5000a waveforms")
+            plt.ylabel("Voltage (V)")
+            plt.xlabel("Time (ms)")
+            plt.legend()
+            plt.draw()
+
+        plt.show(block=True)
+
 if __name__ == "__main__":
     dm = decayMeasure()
     dm.openScope()
-    
-    ## Continually capture sweeps (press ctr+c to kill)
-    # try:
-    #     while 1:
-    #         dm.armMeasure()
-    #         dm.measure()    
-    # except KeyboardInterrupt:
-    #     pass
-        
-    ## Single Shot
-    # dm.armMeasure()
-    # dm.measure()
 
-    ## Sum loops of data
-    data = np.array(0)
-    for i in range (0, 5):
-        print("Measurement %d" % i)
-        dm.armMeasure()
-        data += dm.measure()
-
-    plt.figure()
-    plt.plot(data)
-    plt.show(block=True)
+    dm.accumulate()
 
     dm.closeScope()
