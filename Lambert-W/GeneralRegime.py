@@ -2,20 +2,20 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 from scipy.special import lambertw
-from numpy import exp, log, e
+from numpy import exp, e
 from tqdm import tqdm
 
 
 def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
-    B = 1 + (1+r/2))rho*d*sigma_12*n
-    A = ((1+r/2))rho*d*(sigma_12+sigma_21)) / B
+    B = (1 + (1+r/2))*rho*d*sigma_12*n
+    A = ((1+r/2))*rho*d*(sigma_12+sigma_21) / B
 
     arg = -A*n20*exp(-(t/(B*tau))-(A*n20))
 
     # Check that result is real
     assert min(arg) >= -1/e, \
-    'Lambert W Argument will give an imaginary result.'
+        'Lambert W Argument will give an imaginary result.'
 
     return -lambertw(arg).real/A
 
@@ -23,7 +23,7 @@ def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 def decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     y = lambertDecay(t, r, tau, sigma_12, sigma_21, n, n20)
     y = y/max(y)
-    ind = np.where(y <  1/e)
+    ind = np.where(y < 1/e)
     ind = ind[0][0]
     decay = t[ind]
     # try:
@@ -31,7 +31,6 @@ def decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     #     decay = t[ind]
     # except:
     #     decay = 0
-    
     return decay
 
 
