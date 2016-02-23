@@ -3,21 +3,21 @@ import matplotlib.pyplot as plt
 
 from scipy.special import lambertw
 from numpy import exp, e
-from tqdm import tqdm
 
 
 def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
-    B = 1 + ((1+r/2)*rho*d*sigma_12*n)
-    A = (1+r/2)*rho*d*(sigma_12+sigma_21) / B
+    alpha = (1+r/2)
+    A = alpha*rho*d*(sigma_12+sigma_21)
+    B = 1 + alpha*rho*d*sigma_12*n
 
-    arg = -A*n20*exp(-(t/(B*tau))-(A*n20))
+    arg = -A*n20*exp(-(t/(B*tau))-(A*n20)/B)/B
 
     # Check that result is real
     assert min(arg) >= -1/e, \
         'Lambert W Argument will give an imaginary result.'
 
-    return -lambertw(arg).real/A
+    return -B*lambertw(arg).real/A
 
 
 def decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
@@ -40,7 +40,7 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.ylabel('$n_2$/max($n_2$)')
     plt.xlabel('time (ms)')
 
-    for r in [0.002, 0.1, 0.3]:
+    for r in [0.002, 0.1, 0.3, 2]:
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
 
         plt.plot(t, y/max(y), label=r)
@@ -73,6 +73,8 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     ## For 400 second film
     ffmpeg -t 400 -loop_input -i input.png output.wmv
     """
+
+    from tqdm import tqdm
 
     i = 0
     for r in tqdm(np.linspace(0.01, 10, 500)):
@@ -176,10 +178,11 @@ if __name__ == "__main__":
     n = 1*rho           # Total number of excited ions
 
     r = 0.1             # Reflectivity of top layer
-    n20 = 0.9*rho     # Number of excited ions at t=0
+    n20 = 0.9*rho       # Number of excited ions at t=0
 
     # data = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-    # plt.plot(t, data)
+    # plt.semilogy(t, data/max(data))
+    # plt.axhline(1/e, ls='--', color='k')
     # plt.show()
 
     varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
