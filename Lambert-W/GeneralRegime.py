@@ -1,13 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+from tqdm import tqdm
 from scipy.special import lambertw
 from numpy import exp, e
 
 
 def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
-    alpha = (1+r/2)
+    alpha = r/2
     A = alpha*rho*d*(sigma_12+sigma_21)
     B = 1 + alpha*rho*d*sigma_12*n
 
@@ -26,6 +27,20 @@ def decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     ind = np.where(y < 1/e)
     ind = ind[0][0]
     decay = t[ind]
+    return decay
+
+
+def decayTime2(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
+    from scipy.optimize import curve_fit
+
+    def model_func(t, a, b, c):
+        return a*np.exp(-t/b)+c
+
+    y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+
+    guess = [max(y)-min(y), tau, 0]  # Guess for a, b, c coefficients
+    popt, pcov = curve_fit(model_func, t, y, guess)   # Fit using Levenberg-Marquardt algorithm
+    decay = popt[1]         # Lifetime (ms)
 
     return decay
 
@@ -40,10 +55,10 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.ylabel('$n_2$/max($n_2$)')
     plt.xlabel('time (ms)')
 
-    for r in [0.002, 0.1, 0.3, 2]:
+    for r in [0, 0.1, 0.3, 2]:
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-
-        plt.plot(t, y/max(y), label=r)
+        y = y/max(y)
+        plt.plot(t, y, label=r)
 
     plt.xlim(min(t), max(t))
     plt.yscale('log')
@@ -74,10 +89,8 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     ffmpeg -t 400 -loop_input -i input.png output.wmv
     """
 
-    from tqdm import tqdm
-
     i = 0
-    for r in tqdm(np.linspace(0.01, 10, 500)):
+    for r in tqdm(np.linspace(1E-4, 1, 100)):
         i += 1
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
 
@@ -124,8 +137,8 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
 def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     plt.figure()
-    x = np.linspace(1E-4, 0.15, 200)    # r
-    y = np.linspace(1E-4, 0.9, 200)     # n20
+    x = np.linspace(1E-4, 1, 50)        # r
+    y = np.linspace(1E-4, 1, 50)     # n20
     X, Y = np.meshgrid(x, y)
 
     zs = np.array([decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
@@ -137,11 +150,12 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     # origin = 'upper'
     lv = 40  # Levels of colours
     CS = plt.contourf(X, Y, Z, lv,
-                      # levels=np.arange(0,100,5),
-                      cmap=plt.cm.inferno,
+                      # levels=np.arange(0, 100, 5),
+                      cmap=plt.cm.plasma,
                       origin=origin)
 
-    CS2 = plt.contour(CS, levels=CS.levels[::4],
+    CS2 = plt.contour(CS,
+                      levels=CS.levels[::4],
                       colors='k',
                       origin=origin,
                       hold='on')
@@ -154,9 +168,9 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     # Add the contour line levels to the colorbar
     cbar.add_lines(CS2)
 
-    plt.title('tau %.1f, sigma_12 %.1f, sigma_21 %.1f, n %.1f'
-              % (tau, sigma_12, sigma_21, n))
-    # plt.savefig('Images/contourfplot5.png', dpi=300)
+    plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.1f'
+              % (tau, sigma_12, sigma_21, n, d, rho))
+    # plt.savefig('Images/contourfplot.png', dpi=900)
 
     plt.show()
 
@@ -164,28 +178,29 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
 if __name__ == "__main__":
 
     # Time to simulate over
-    t = np.linspace(0, 200, 1000)
+    t = np.linspace(0, 100, 1000)
 
-    # Define parameters
+    # Define material parameters:
+
+    # DOI: 10.1038/srp14037 (for 1 mol% Er target glass)
+    rho = 0.91          # Density of Er ions (*1E21 cm^-3)
     tau = 10            # Radiative decay rate
-    rho = 1             # Density of Er ions (*1E21 cm^-2)
-    d = 1E-4            # Thickness of slab (cm)
+    d = 1000E-4         # Thickness of slab (cm)
 
     # DOI: 10.1063/1.366265
     sigma_12 = 4.1      # Absorption cross-section (*1E-21 cm^2)
     sigma_21 = 5        # Emission cross-section (*1E-21 cm^2)
 
-    n = 1*rho           # Total number of excited ions
-
+    n = 1               # Total number of excited ions (i.e. active ions,clustering)
     r = 0.1             # Reflectivity of top layer
-    n20 = 0.9*rho       # Number of excited ions at t=0
+    n20 = 0.4           # Number of excited ions at t=0
 
     # data = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
     # plt.semilogy(t, data/max(data))
     # plt.axhline(1/e, ls='--', color='k')
     # plt.show()
 
-    varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
+    # varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
     # video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
     # threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-    # contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
+    contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
