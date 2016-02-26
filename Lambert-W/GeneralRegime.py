@@ -55,7 +55,7 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.ylabel('$n_2$/max($n_2$)')
     plt.xlabel('time (ms)')
 
-    for r in [0, 0.1, 0.3, 2]:
+    for r in [0.001, 0.1, 0.3, 0.7]:
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
         y = y/max(y)
         plt.plot(t, y, label=r)
@@ -63,9 +63,7 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.xlim(min(t), max(t))
     plt.yscale('log')
     plt.legend(loc='best', title='r')
-    # import os
-    # fname = os.path.join('Images', 'decaysVsrGeneraln20_0p9.png')
-    # plt.savefig(fname, dpi=300)
+    plt.savefig('Images/varyFeedbackLog.png', dpi=900)
     plt.show()
 
 
@@ -90,7 +88,7 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     """
 
     i = 0
-    for r in tqdm(np.linspace(1E-4, 1, 100)):
+    for r in tqdm(np.linspace(1E-4, 1, 200)):
         i += 1
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
 
@@ -104,6 +102,8 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
         plt.plot(t, y/max(y), label=r)
         plt.title('tau %.1f, sigma_12 %.1f, sigma_21 %.1f, n %.1f, n20 %.1f' %
                   (tau, sigma_12, sigma_21, n, n20))
+        plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, $n_{20}$ %.1f, d %.1f cm, '
+                  '$\\rho$ %.2f' % (tau, sigma_12, sigma_21, n, n20, d, rho))
         plt.legend(loc='lower left', title='r')
         plt.savefig('Images/file%04d.png' % i, dpi=300)
         plt.close()
@@ -137,8 +137,8 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
 def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     plt.figure()
-    x = np.linspace(1E-4, 1, 50)        # r
-    y = np.linspace(1E-4, 1, 50)     # n20
+    x = np.linspace(1E-4, 1, 500)     # r
+    y = np.linspace(1E-4, n, 500)     # n20
     X, Y = np.meshgrid(x, y)
 
     zs = np.array([decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
@@ -161,16 +161,16 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
                       hold='on')
 
     plt.xlabel('r')
-    plt.ylabel('$n_{2,0}$')
+    plt.ylabel('$n_{2,0}/n$')
     # Make a colorbar for the ContourSet returned by the contourf call.
     cbar = plt.colorbar(CS)
-    cbar.ax.set_ylabel('Single Exp. lifetime')
+    cbar.ax.set_ylabel('Measured monoexponential lifetime')
     # Add the contour line levels to the colorbar
     cbar.add_lines(CS2)
 
-    plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.1f'
+    plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.2f'
               % (tau, sigma_12, sigma_21, n, d, rho))
-    # plt.savefig('Images/contourfplot.png', dpi=900)
+    plt.savefig('Images/contourfplot.png', dpi=900)
 
     plt.show()
 
@@ -181,26 +181,17 @@ if __name__ == "__main__":
     t = np.linspace(0, 100, 1000)
 
     # Define material parameters:
-
-    # DOI: 10.1038/srp14037 (for 1 mol% Er target glass)
     rho = 0.91          # Density of Er ions (*1E21 cm^-3)
     tau = 10            # Radiative decay rate
-    d = 1000E-4         # Thickness of slab (cm)
-
-    # DOI: 10.1063/1.366265
+    d = 1E-4*1000       # Thickness of slab (cm)
     sigma_12 = 4.1      # Absorption cross-section (*1E-21 cm^2)
     sigma_21 = 5        # Emission cross-section (*1E-21 cm^2)
+    n = 1               # Total number of active ions (i.e.,clustering)
 
-    n = 1               # Total number of excited ions (i.e. active ions,clustering)
+    # contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
+
+    n20 = 0.3*n         # Fraction of excited ions at t=0
     r = 0.1             # Reflectivity of top layer
-    n20 = 0.4           # Number of excited ions at t=0
-
-    # data = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-    # plt.semilogy(t, data/max(data))
-    # plt.axhline(1/e, ls='--', color='k')
-    # plt.show()
-
-    # varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
+    varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
     # video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
     # threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-    contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
