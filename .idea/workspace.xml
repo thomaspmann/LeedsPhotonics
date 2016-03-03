@@ -1,13 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6042c1e-cee6-4da9-86dd-b8d71c153e2b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/.ipynb_checkpoints/Untitled-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/0.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/Untitled.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/air.sdt" afterPath="" />
+    <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/CRLB.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/.ipynb_checkpoints/Lambert-W lifetime-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/FittingDataExperimental/.ipynb_checkpoints/Test-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/FittingDataExperimental/Data/t15_100ms_500ma_emptycell2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/FittingDataExperimental/Test.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/GeneralRegime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/contourfplot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/highn20.wmv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/lown20.wmv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedback.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedbackLog.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedbackLogbigD.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedback_close1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedback_close2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Lambert-W lifetime.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/fittingLambertW.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/lambertW.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/populationInversionRegime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/tester.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LaserRateEquation.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/.ipynb_checkpoints/load_data_Tseries-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/.ipynb_checkpoints/quickplot-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/becker.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/picoscope.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/picoscopeVsBecker_bin100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/picoscopeVsBecker_binNone.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/quickplot.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/load_data_Tseries.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Runge-Kutta.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Sympy Laser Rate Eqns.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TauDistributionFitting.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/.ipynb_checkpoints/ExponentialFitting-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_0mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_0mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_136mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_136mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_145.5mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_145.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_146.5mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_146.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_166.5mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_166.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_172mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_172mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_2.9mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_2.9mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_204mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_204mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_21.4mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_21.4mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_210.5mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_210.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_22.4mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_22.4mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_233mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_233mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_237mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_237mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_274mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_274mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_309.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_322.5mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_322.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_33.4mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_33.4mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_351.5mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_351.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_360mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_360mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_42.2mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_42.2mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_44.8mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_44.8mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_51.4mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_51.4mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_56.8mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_56.8mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_61.5mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_61.5mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_69.9mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_69.9mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_79.9mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_79.9mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_88.4mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_88.4mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_9.8mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_9.8mgdl_r1_Blood.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22_9.8mgdl_r1_Air.MAT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/ExponentialFitting.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/differential equations.ipynb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notebooks.iml" afterPath="$PROJECT_DIR$/.idea/Notebooks.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tester.ipynb" afterPath="$PROJECT_DIR$/Tester.ipynb" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,18 +116,15 @@
     <favorites_list name="Notebooks" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="GeneralRegime.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
+        <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5619658">
-              <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5214477">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#569#733#0" expanded="false" />
-                <element signature="e#803#1202#0" expanded="false" />
-                <element signature="e#1837#2318#1" expanded="false" />
-                <element signature="e#3242#3934#0" expanded="false" />
+                <element signature="e#3412#4104#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -52,8 +138,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lambert-W/populationInversionRegime.py" />
-        <option value="$PROJECT_DIR$/Lambert-W/GeneralRegime.py" />
+        <option value="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
       </list>
     </option>
   </component>
@@ -63,28 +148,6 @@
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Spelling</id>
-          </State>
-          <State>
-            <id>XML</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SpellCheckingInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
@@ -92,7 +155,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -138,60 +201,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Fitting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notebooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notebooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fitting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Lambert-W" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lifetmm" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="last_opened_file_path" value="M:/Pycharm Working Directory" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings module-name="Notebooks" sdk-home="C:\Users\mn14tm\AppData\Local\Continuum\Anaconda3\python.exe" working-directory="M:/Pycharm Working Directory">
-        <option name="mySdkHome" value="C:\Users\mn14tm\AppData\Local\Continuum\Anaconda3\python.exe" />
-        <option name="myModuleName" value="Notebooks" />
-        <option name="myWorkingDirectory" value="M:/Pycharm Working Directory" />
-        <option name="myAddSourceRoots" value="true" />
-      </console-settings>
-    </option>
-  </component>
-  <component name="PyDebuggerOptionsProvider">
-    <option name="mySaveCallSignatures" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GitHub\Notebooks\Lambert-W" />
-    </key>
-  </component>
   <component name="RunManager" selected="Python.GeneralRegime">
-    <configuration default="false" name="populationInversionRegime" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lambert-W" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Notebooks" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lambert-W/populationInversionRegime.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="GeneralRegime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,12 +245,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lambert-W" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fitting/Lambert-W" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Notebooks" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lambert-W/GeneralRegime.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -331,14 +377,12 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.populationInversionRegime" />
-      <item index="1" class="java.lang.String" itemvalue="Python.GeneralRegime" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Python.GeneralRegime" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="1">
         <item index="0" class="java.lang.String" itemvalue="Python.GeneralRegime" />
-        <item index="1" class="java.lang.String" itemvalue="Python.populationInversionRegime" />
       </list>
     </recent_temporary>
   </component>
@@ -348,25 +392,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e6042c1e-cee6-4da9-86dd-b8d71c153e2b" name="Default" comment="" />
-      <created>1455273973397</created>
+      <changelist id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="" />
+      <created>1456939420104</created>
       <option name="number" value="Default" />
-      <updated>1455273973397</updated>
+      <updated>1456939420104</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1512118" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1512118" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721382" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17842324" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17945945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746115" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19792746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122030236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39792746" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -374,12 +420,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19087137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3525836" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -394,236 +438,20 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="11" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
+    <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5214477">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
+            <element signature="e#3412#4104#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/Lambert-W lifetime.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="-1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/populationInversionRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/populationInversionRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32218507">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/Lambert-W lifetime.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/tester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7520107">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37532467">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lifetime/lifetime/decay/decay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../lifetime/lifetime/glucosense/glucosense.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17662337">
-          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5619658">
-          <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#569#733#0" expanded="false" />
-            <element signature="e#803#1202#0" expanded="false" />
-            <element signature="e#1837#2318#1" expanded="false" />
-            <element signature="e#3242#3934#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
