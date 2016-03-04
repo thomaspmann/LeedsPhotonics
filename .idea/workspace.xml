@@ -2,100 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CRLB.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/.ipynb_checkpoints/Lambert-W lifetime-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/FittingDataExperimental/.ipynb_checkpoints/Test-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/FittingDataExperimental/Data/t15_100ms_500ma_emptycell2.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/FittingDataExperimental/Test.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/GeneralRegime.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/contourfplot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/highn20.wmv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/lown20.wmv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedback.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedbackLog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedbackLogbigD.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedback_close1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Images/varyFeedback_close2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/Lambert-W lifetime.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/fittingLambertW.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/lambertW.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/populationInversionRegime.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Lambert-W/tester.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LaserRateEquation.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/.ipynb_checkpoints/load_data_Tseries-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/.ipynb_checkpoints/quickplot-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/becker.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/picoscope.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/picoscopeVsBecker_bin100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/picoscopeVsBecker_binNone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/PikoVsBecker/quickplot.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/load_data_Tseries.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Runge-Kutta.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Sympy Laser Rate Eqns.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TauDistributionFitting.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/.ipynb_checkpoints/ExponentialFitting-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_0mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_0mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_136mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_136mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_145.5mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_145.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_146.5mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_146.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_166.5mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_166.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_172mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_172mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_2.9mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_2.9mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_204mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_204mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_21.4mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_21.4mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_210.5mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_210.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_22.4mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_22.4mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_233mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_233mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_237mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_237mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_274mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_274mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_309.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_322.5mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_322.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_33.4mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_33.4mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_351.5mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_351.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_360mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_360mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_42.2mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_42.2mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_44.8mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_44.8mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_51.4mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_51.4mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_56.8mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_56.8mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_61.5mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_61.5mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_69.9mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_69.9mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_79.9mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_79.9mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_88.4mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_88.4mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_9.8mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22/T22_9.8mgdl_r1_Blood.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/Data/T22_9.8mgdl_r1_Air.MAT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Theoretical Decay Fitting/ExponentialFitting.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/differential equations.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notebooks.iml" afterPath="$PROJECT_DIR$/.idea/Notebooks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/.ipynb_checkpoints/quickplot-checkpoint.ipynb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/10.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/10.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/2.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/2.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/20.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/20.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/40.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/40.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/5.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/5.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/60.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/60.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/80.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/80.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/99.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/99.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/Misc/0.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/Misc/air.sdt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Reflectance/quickplot.ipynb" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Notebooks.iws" />
@@ -116,11 +42,11 @@
     <favorites_list name="Notebooks" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="GeneralRegime.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5214477">
+            <state vertical-scroll-proportion="0.5346852">
               <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -173,6 +99,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -181,52 +108,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fitting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fitting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lambert-W" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +118,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
-    <property name="last_opened_file_path" value="M:/Pycharm Working Directory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lifetmm" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Python.GeneralRegime">
@@ -401,18 +285,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1512118" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1512118" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721382" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17945945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746115" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19792746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122030236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39792746" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -420,10 +302,12 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19792746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39792746" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -444,7 +328,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5214477">
+        <state vertical-scroll-proportion="0.5346852">
           <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
