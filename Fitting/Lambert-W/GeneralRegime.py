@@ -8,11 +8,13 @@ from numpy import exp, e
 
 def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
-    alpha = r/2
+    # alpha = r/2
+    alpha = (1+r/2)
     A = alpha*rho*d*(sigma_12+sigma_21)
     B = 1 + alpha*rho*d*sigma_12*n
 
-    arg = -A*n20*exp(-(t/(B*tau))-(A*n20)/B)/B
+    x = (t/(B*tau)) + (A*n20)
+    arg = -A*n20*exp(-x)/B
 
     # Check that result is real
     assert min(arg) >= -1/e, \
@@ -55,7 +57,7 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.ylabel('$n_2$/max($n_2$)')
     plt.xlabel('time (ms)')
 
-    for r in [0.001, 0.7, 3, 10]:
+    for r in [0.001, 0.5E1, 1E2]:
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
         y = y/max(y)
         plt.plot(t, y, label=r)
@@ -91,7 +93,7 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     """
 
     i = 0
-    for r in tqdm(np.linspace(1E-4, 10, 200)):
+    for r in tqdm(np.linspace(1E-4, 1, 200)):
         i += 1
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
 
@@ -140,8 +142,8 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
 def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     plt.figure()
-    x = np.linspace(1E-4, 1, 500)     # r
-    y = np.linspace(1E-4, n, 500)     # n20
+    x = np.linspace(1E-4, 1, 200)     # r
+    y = np.linspace(1E-4, n, 200)     # n20
     X, Y = np.meshgrid(x, y)
 
     zs = np.array([decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
@@ -157,11 +159,11 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
                       cmap=plt.cm.plasma,
                       origin=origin)
 
-    CS2 = plt.contour(CS,
-                      levels=CS.levels[::4],
-                      colors='k',
-                      origin=origin,
-                      hold='on')
+    # CS2 = plt.contour(CS,
+    #                   levels=CS.levels[::4],
+    #                   colors='k',
+    #                   origin=origin,
+    #                   hold='on')
 
     plt.xlabel('r')
     plt.ylabel('$n_{2,0}/n$')
@@ -169,7 +171,7 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     cbar = plt.colorbar(CS)
     cbar.ax.set_ylabel('Measured monoexponential lifetime')
     # Add the contour line levels to the colorbar
-    cbar.add_lines(CS2)
+    # cbar.add_lines(CS2)
 
     plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.2f'
               % (tau, sigma_12, sigma_21, n, d, rho))
@@ -184,17 +186,17 @@ if __name__ == "__main__":
     t = np.linspace(0, 100, 1000)
 
     # Define material parameters:
-    rho = 0.91          # Density of Er ions (*1E21 cm^-3)
+    rho = 0.91         # Density of Er ions (*1E21 cm^-3)
     tau = 10            # Radiative decay rate
-    d = 1E-4*1000       # Thickness of slab (cm)
+    d = 1E-4*1000             # Thickness of slab (cm)
     sigma_12 = 4.1      # Absorption cross-section (*1E-21 cm^2)
     sigma_21 = 5        # Emission cross-section (*1E-21 cm^2)
     n = 1               # Total number of active ions (i.e.,clustering)
 
-    # contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
+    contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
 
-    n20 = 0.8*n         # Fraction of excited ions at t=0
-    r = 0.1             # Reflectivity of top layer
+    n20 = 0.2*n         # Fraction of excited ions at t=0
+    r = 0.5             # Reflectivity of top layer
     # varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
-    video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+    # video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
     # threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
