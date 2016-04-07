@@ -16,15 +16,15 @@ class decayMeasure():
 
     def openScope(self):
         self.ps.open()
-        bitRes = 15
+        bitRes = 16
         self.ps.setResolution(str(bitRes))
-        self.ps.setChannel("A", coupling="DC", VRange=5.0, VOffset=0, enabled=True)
+        self.ps.setChannel("A", coupling="DC", VRange=20.0E-3, VOffset=0, enabled=True)
         self.ps.setChannel("B", enabled=False)
 
-        waveformDuration = 10E-3
-        obsDuration = 100*waveformDuration
+        waveformDuration = 100E-3
+        obsDuration = 1 * waveformDuration
 
-        sampleFreq = 1E6
+        sampleFreq = 50E6
         sampleInterval = 1.0 / sampleFreq
 
         # Returns: res = (actualSampleInterval, noSamples, maxSamples)
@@ -39,7 +39,7 @@ class decayMeasure():
         self.res = res
 
         #Use external trigger to mark when we sample
-        self.ps.setSimpleTrigger(trigSrc="A", threshold_V=0.0, direction="Falling", timeout_ms=5000)
+        # self.ps.setSimpleTrigger(trigSrc="A", threshold_V=0.0, direction="Falling", timeout_ms=5000)
 
         self.ps.setSigGenBuiltInSimple(offsetVoltage=0, pkToPk=4, waveType="Sine",
                               frequency=1/waveformDuration, shots=1, triggerType="Rising", 
@@ -76,11 +76,22 @@ class decayMeasure():
         plt.close()
 
         return dataA
+
+    def intensity(self):
+        # Continually capture sweeps (press ctr+c to kill)
+        try:
+            while 1:
+                dm.armMeasure()
+                data = dm.measure()
+                data = np.mean(data)
+                print(data)
+        except KeyboardInterrupt:
+            pass
                              
 if __name__ == "__main__":
     dm = decayMeasure()
     dm.openScope()
-    
+    dm.intensity()
     ## Continually capture sweeps (press ctr+c to kill)
     # try:
     #     while 1:

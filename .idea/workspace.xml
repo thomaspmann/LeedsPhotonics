@@ -2,211 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0001.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0002.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0003.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0004.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0005.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0006.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0007.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0008.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0009.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0010.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0011.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0012.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0013.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0014.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0015.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0016.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0017.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0018.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0019.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0020.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0021.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0022.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0023.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0024.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0025.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0026.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0027.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0028.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0029.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0030.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0031.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0032.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0033.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0034.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0035.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0036.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0037.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0038.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0039.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0040.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0041.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0042.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0043.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0044.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0045.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0046.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0047.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0048.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0049.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0050.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0051.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0052.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0053.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0054.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0055.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0056.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0057.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0058.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0059.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0060.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0061.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0062.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0063.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0064.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0065.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0066.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0067.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0068.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0069.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0070.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0071.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0072.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0073.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0074.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0075.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0076.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0077.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0078.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0079.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0080.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0081.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0082.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0083.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0084.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0085.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0086.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0087.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0088.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0089.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0090.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0091.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0092.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0093.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0094.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0095.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0096.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0097.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0098.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0099.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0101.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0102.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0103.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0104.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0105.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0106.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0107.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0108.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0109.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0110.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0111.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0112.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0113.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0115.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0116.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0117.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0118.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0119.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0120.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0121.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0122.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0123.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0124.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0125.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0126.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0127.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0128.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0129.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0130.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0131.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0132.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0133.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0134.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0135.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0136.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0137.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0138.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0139.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0140.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0141.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0142.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0143.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0144.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0145.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0146.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0147.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0148.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0149.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0151.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0152.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0153.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0154.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0155.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0156.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0157.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0158.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0159.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0160.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0161.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0162.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0163.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0164.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0165.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0166.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0167.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0168.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0169.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0170.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0171.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0172.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0173.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0174.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0175.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0176.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0177.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0178.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0179.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0180.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0181.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0182.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0183.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0184.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0185.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0186.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0187.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0188.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0189.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0190.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0191.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0192.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0193.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0194.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0195.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0196.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0197.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0198.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0199.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/file0200.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/Images/out.wmv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/Pipe_inOut" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/Pipe_inOutFifo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/quickplot_old.ipynb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PicoscopeWithPython/quickplot.ipynb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notebooks.iml" afterPath="$PROJECT_DIR$/.idea/Notebooks.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" afterPath="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tester.ipynb" afterPath="$PROJECT_DIR$/Tester.ipynb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Fitting/Lambert-W/lambertW.png" afterPath="$PROJECT_DIR$/Fitting/Lambert-W/Images/lambertW.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" afterPath="$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -227,15 +32,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeneralRegime.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GeneralRegime.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38739946">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#3443#4135#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accumulateSweeps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/accumulateSweeps.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1655">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <element signature="e#62#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="billy.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="328">
+              <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <element signature="e#1810#3383#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testPicoscope.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="88" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testPicoscope2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-334">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -249,14 +99,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
+        <option value="$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" />
+        <option value="$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -315,51 +167,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fitting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Notebooks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fitting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lambert-W" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="C:\Users\mn14tm\AppData\Local\Continuum\Anaconda3\python.exe" working-directory="M:/Pycharm Working Directory">
+        <option name="mySdkHome" value="C:\Users\mn14tm\AppData\Local\Continuum\Anaconda3\python.exe" />
+        <option name="myWorkingDirectory" value="M:/Pycharm Working Directory" />
+        <option name="myAddSourceRoots" value="true" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -370,7 +199,7 @@
       <recent name="D:\GitHub\Notebooks\PicoscopeWithPython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GeneralRegime">
+  <component name="RunManager" selected="Python.billy">
     <configuration default="false" name="GeneralRegime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -384,6 +213,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Notebooks" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="testPicoscope2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PicoscopeWithPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Notebooks" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PicoscopeWithPython/testPicoscope2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="billy" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PicoscopeWithPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Notebooks" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -403,6 +266,18 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Notebooks" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -510,16 +385,22 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.GeneralRegime" />
+      <item index="1" class="java.lang.String" itemvalue="Python.testPicoscope2" />
+      <item index="2" class="java.lang.String" itemvalue="Python.billy" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.GeneralRegime" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.billy" />
+        <item index="1" class="java.lang.String" itemvalue="Python.testPicoscope2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.GeneralRegime" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\mn14tm\AppData\Roaming\Subversion</configuration>
   </component>
@@ -528,20 +409,21 @@
       <changelist id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="" />
       <created>1456939420104</created>
       <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
       <updated>1456939420104</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1512118" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239584" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721382" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17945945" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32746115" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19792746" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25925925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122030236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -577,7 +459,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -588,7 +470,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -599,7 +481,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -610,7 +492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -621,7 +503,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#3443#4135#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#3443#4135#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
@@ -646,7 +550,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/tester.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0522946">
+        <state relative-caret-position="0">
           <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
         </state>
       </provider>
@@ -658,16 +562,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/accumulateSweeps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09071505">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/fittingLambertW.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -679,11 +576,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38739946">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="176">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#3443#4135#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/accumulateSweeps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1655">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="88" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#1810#3383#0" expanded="false" />
           </folding>
         </state>
       </provider>

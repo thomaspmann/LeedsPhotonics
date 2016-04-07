@@ -36,17 +36,11 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.1 (C:\Users\mn14tm\AppData\Local\Continuum\Anaconda3\python.exe) (1)" project-jdk-type="Python SDK" />
-  <component name="PyConsoleOptionsProvider">
-    <option name="myPythonConsoleState">
-      <console-settings sdk-home="C:\Users\mn14tm\AppData\Local\Continuum\Anaconda3\python.exe" working-directory="M:/Pycharm Working Directory">
-        <option name="mySdkHome" value="C:\Users\mn14tm\AppData\Local\Continuum\Anaconda3\python.exe" />
-        <option name="myWorkingDirectory" value="M:/Pycharm Working Directory" />
-        <option name="myAddSourceRoots" value="true" />
-      </console-settings>
-    </option>
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.5.1 (C:\Users\tarun_admin\Anaconda3\python.exe)" project-jdk-type="Python SDK" />
   <component name="PyDebuggerOptionsProvider">
     <option name="mySaveCallSignatures" value="true" />
+  </component>
+  <component name="PythonCompatibilityInspectionAdvertiser">
+    <option name="version" value="1" />
   </component>
 </project>
