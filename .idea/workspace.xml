@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/Pipe_inOut" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/Pipe_inOutFifo" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PicoscopeWithPython/quickplot_old.ipynb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PicoscopeWithPython/quickplot.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notebooks.iml" afterPath="$PROJECT_DIR$/.idea/Notebooks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" afterPath="$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PicoscopeWithPython/billy.py" afterPath="$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" afterPath="$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,14 +50,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="billy.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="billy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+            <state relative-caret-position="203">
+              <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#1810#3383#0" expanded="false" />
+                <element signature="e#3391#3815#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quickplot.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/quickplot.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +106,7 @@
         <option value="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
         <option value="$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" />
         <option value="$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
+        <option value="$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
       </list>
     </option>
   </component>
@@ -167,6 +173,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notebooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notebooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PicoscopeWithPython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -199,7 +223,7 @@
       <recent name="D:\GitHub\Notebooks\PicoscopeWithPython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.billy">
+  <component name="RunManager" selected="Python.quickplot">
     <configuration default="false" name="GeneralRegime" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,6 +271,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Notebooks" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="quickplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PicoscopeWithPython" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Notebooks" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -385,16 +426,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.GeneralRegime" />
       <item index="1" class="java.lang.String" itemvalue="Python.testPicoscope2" />
       <item index="2" class="java.lang.String" itemvalue="Python.billy" />
+      <item index="3" class="java.lang.String" itemvalue="Python.quickplot" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.billy" />
-        <item index="1" class="java.lang.String" itemvalue="Python.testPicoscope2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.GeneralRegime" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.quickplot" />
+        <item index="1" class="java.lang.String" itemvalue="Python.billy" />
+        <item index="2" class="java.lang.String" itemvalue="Python.testPicoscope2" />
+        <item index="3" class="java.lang.String" itemvalue="Python.GeneralRegime" />
       </list>
     </recent_temporary>
   </component>
@@ -412,6 +455,14 @@
       <option name="presentableId" value="Default" />
       <updated>1456939420104</updated>
     </task>
+    <task id="LOCAL-00001" summary="setup microfluidics">
+      <created>1460039171540</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1460039171540</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -451,6 +502,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup microfluidics" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup microfluidics" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -574,17 +629,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#3443#4135#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/accumulateSweeps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1655">
@@ -613,11 +657,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        <state relative-caret-position="203">
+          <caret line="106" column="22" selection-start-line="106" selection-start-column="22" selection-end-line="106" selection-end-column="22" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#1810#3383#0" expanded="false" />
+            <element signature="e#3391#3815#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#3443#4135#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/quickplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

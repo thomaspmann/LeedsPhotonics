@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import time
 import numpy as np
 
-# from tqdm import *
+from tqdm import *
 from picoscope import ps5000a
 from scipy.optimize import curve_fit
 
@@ -68,7 +68,7 @@ class decayMeasure():
     def accumulate(self, sweep_no):
         # Sum loops of data
         data = np.array(0)
-        for i in range(0, sweep_no):
+        for i in tqdm(range(0, sweep_no)):
             # print("Measurement %d" % i)
             dm.armMeasure()
             data = data + dm.measure()
@@ -102,14 +102,14 @@ class decayMeasure():
         plt.show()
         plt.close()
 
-        #chip = 'T18'
-        #pulse = '50ms'
-        # title = time.strftime("%d%m%y_%H%M%S", time.gmtime())
-        # fname = "Data\\" + chip + '_' + ref +'_' + pulse + '_' + title + '.txt'
-        # fname = "Data\\" + ref + '.txt'
-        # dataTimeAxis = np.array(dataTimeAxis)
-        # saveData = np.c_[dataTimeAxis, data]
-        # np.savetxt(fname, saveData, newline='\r\n')
+        chip = 'T6'
+        pulse = '50ms'
+        ref = 'noFocus'
+        title = time.strftime("%d%m%y_%H%M%S", time.gmtime())
+        fname = "Data\\" + chip + '_' + ref +'_' + pulse + '_' + title + '.txt'
+        dataTimeAxis = np.array(dataTimeAxis)
+        saveData = np.c_[dataTimeAxis, data]
+        np.savetxt(fname, saveData, newline='\r\n')
 
     def intensity(self):
         self.ps.setSimpleTrigger(trigSrc="External", threshold_V=2.0, direction="Falling", timeout_ms=5000,
@@ -127,6 +127,6 @@ class decayMeasure():
 if __name__ == "__main__":
     dm = decayMeasure()
     dm.openScope()
-    # dm.accumulate(150)
-    dm.intensity()
+    dm.accumulate(100)
+    # dm.intensity()
     dm.closeScope()
