@@ -35,7 +35,7 @@ class decayMeasure():
         print("Sampling frequency = %.3f MHz" % (1E-6/res[0]))
         print("Taking  samples = %d" % res[1])
         print("Maximum samples = %d" % res[2])
-        
+
         self.res = res
 
         #Use external trigger to mark when we sample
