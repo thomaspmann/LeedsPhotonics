@@ -24,15 +24,6 @@ def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
 
 def decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
-    y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-    y = y/max(y)
-    ind = np.where(y < 1/e)
-    ind = ind[0][0]
-    decay = t[ind]
-    return decay
-
-
-def decayTime2(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     from scipy.optimize import curve_fit
 
     def model_func(t, a, b, c):
@@ -57,16 +48,16 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.ylabel('$n_2$/max($n_2$)')
     plt.xlabel('time (ms)')
 
-    for r in [0.001, 0.5E1, 1E2]:
+    for r in [0.001, 0.5, 1]:
         y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-        y = y/max(y)
+        # y = y/max(y)
         plt.plot(t, y, label=r)
 
     plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.4f cm, $\\rho$ %.2f'
               % (tau, sigma_12, sigma_21, n, d, rho))
     plt.xlim(min(t), 25)
-    plt.ylim(0.01, 1)
-    plt.yscale('log')
+    # plt.ylim(0.01, 1)
+    # plt.yscale('log')
     plt.legend(loc='best', title='r')
     plt.savefig('Images/varyFeedbackLog.png', dpi=900)
     plt.show()
@@ -186,17 +177,17 @@ if __name__ == "__main__":
     t = np.linspace(0, 100, 1000)
 
     # Define material parameters:
-    rho = 0.91         # Density of Er ions (*1E21 cm^-3)
+    rho = 0.91          # Density of Er ions (*1E21 cm^-3)
     tau = 10            # Radiative decay rate
-    d = 1E-4*1000             # Thickness of slab (cm)
+    d = 1E-4*1       # Thickness of slab (cm)
     sigma_12 = 4.1      # Absorption cross-section (*1E-21 cm^2)
     sigma_21 = 5        # Emission cross-section (*1E-21 cm^2)
     n = 1               # Total number of active ions (i.e.,clustering)
 
     contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
-
-    n20 = 0.2*n         # Fraction of excited ions at t=0
-    r = 0.5             # Reflectivity of top layer
+    #
+    # n20 = 0.2*n         # Fraction of excited ions at t=0
+    # r = 0.5             # Reflectivity of top layer
     # varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d)
     # video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
     # threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
