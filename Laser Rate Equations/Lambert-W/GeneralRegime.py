@@ -177,11 +177,11 @@ if __name__ == "__main__":
     t = np.linspace(0, 100, 1000)
 
     # Define material parameters:
-    rho = 0.91          # Density of Er ions (*1E21 cm^-3)
-    tau = 10            # Radiative decay rate
-    d = 1E-4*1       # Thickness of slab (cm)
-    sigma_12 = 4.1      # Absorption cross-section (*1E-21 cm^2)
-    sigma_21 = 5        # Emission cross-section (*1E-21 cm^2)
+    rho = 0.217         # Density of Er ions (*1E21 cm^-3)
+    tau = 12.54            # Radiative decay rate
+    d = 0.98E-4*1          # Thickness of slab (cm)
+    sigma_12 = 4.98     # Absorption cross-section (*1E-21 cm^2)
+    sigma_21 = 5.02     # Emission cross-section (*1E-21 cm^2)
     n = 1               # Total number of active ions (i.e.,clustering)
 
     contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
