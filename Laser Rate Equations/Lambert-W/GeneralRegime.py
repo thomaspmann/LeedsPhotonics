@@ -134,7 +134,7 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     plt.figure()
     x = np.linspace(1E-4, 1, 200)     # r
-    y = np.linspace(1E-4, n, 200)     # n20
+    y = np.linspace(1E-4, 0.2, 200)     # n20
     X, Y = np.meshgrid(x, y)
 
     zs = np.array([decayTime(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
@@ -159,13 +159,14 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     plt.xlabel('r')
     plt.ylabel('$n_{2,0}/n$')
     # Make a colorbar for the ContourSet returned by the contourf call.
-    cbar = plt.colorbar(CS)
+    cbar = plt.colorbar(CS,format='%.3f')
     cbar.ax.set_ylabel('Measured monoexponential lifetime')
+    # cbar.ax.ticklabel_format(useOffset=False)
     # Add the contour line levels to the colorbar
     # cbar.add_lines(CS2)
 
-    plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.2f'
-              % (tau, sigma_12, sigma_21, n, d, rho))
+    # plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.2f'
+    #           % (tau, sigma_12, sigma_21, n, d, rho))
     plt.savefig('Images/contourfplot.png', dpi=900)
 
     plt.show()
@@ -174,12 +175,12 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
 if __name__ == "__main__":
 
     # Time to simulate over
-    t = np.linspace(0, 100, 1000)
+    t = np.linspace(0, 100, 100)
 
     # Define material parameters:
     rho = 0.217         # Density of Er ions (*1E21 cm^-3)
-    tau = 12.54            # Radiative decay rate
-    d = 0.98E-4*1          # Thickness of slab (cm)
+    tau = 12  # .54            # Radiative decay rate
+    d = 0.98E-4*130          # Thickness of slab (cm)
     sigma_12 = 4.98     # Absorption cross-section (*1E-21 cm^2)
     sigma_21 = 5.02     # Emission cross-section (*1E-21 cm^2)
     n = 1               # Total number of active ions (i.e.,clustering)
