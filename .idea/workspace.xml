@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/journal2.mplstyle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McCumber/AbsorptionCrossSection.ipynb" afterPath="$PROJECT_DIR$/McCumber/AbsorptionCrossSection.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/journal.mplstyle" afterPath="$PROJECT_DIR$/journal.mplstyle" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,11 +45,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="journal.mplstyle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="journal.mplstyle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/journal.mplstyle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="445">
-              <caret line="236" column="111" lean-forward="true" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
+              <caret line="236" column="111" lean-forward="false" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="journal2.mplstyle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/journal2.mplstyle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -88,6 +97,8 @@
         <option value="$PROJECT_DIR$/matplotlibrc.py" />
         <option value="$PROJECT_DIR$/journal" />
         <option value="$PROJECT_DIR$/journal.mplstyle" />
+        <option value="$PROJECT_DIR$/journal2.mplstyle.py" />
+        <option value="$PROJECT_DIR$/journal2.mplstyle" />
       </list>
     </option>
   </component>
@@ -418,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483732507742</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="functionised quickplot&#10;">
+      <created>1483732663628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1483732663628</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -469,7 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" />
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope2.py" />
@@ -544,7 +561,15 @@
     <entry file="file://$PROJECT_DIR$/journal.mplstyle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
-          <caret line="236" column="111" lean-forward="true" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
+          <caret line="236" column="111" lean-forward="false" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/journal2.mplstyle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
           <folding />
         </state>
       </provider>
