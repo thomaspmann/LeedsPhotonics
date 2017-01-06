@@ -229,16 +229,12 @@ axes.axisbelow      : True   # whether axis gridlines and ticks are below
 axes.formatter.limits : -7, 7 # use scientific notation if log10
 															 # of the axis range is smaller than the
 															 # first or larger than the second
-#axes.formatter.use_locale : False # When True, format tick labels
-																	 # according to the user's locale.
-																	 # For example, use ',' as a decimal
-																	 # separator in the fr_FR locale.
-axes.formatter.use_mathtext : True # When True, use mathtext for scientific
-																		 # notation.
-#axes.unicode_minus  : True    # use unicode for the minus symbol
-															 # rather than hyphen.  See
-															 # http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
-axes.prop_cycle    : 5DA5DA, FAA43A, 60BD68, F17CB0, B2912F, B276B2, DECF3F, F15854, 4D4D4D
+#axes.formatter.use_locale : False # When True, format tick labels according to the user's locale.
+                                   # For example, use ',' as a decimal separator in the fr_FR locale.
+axes.formatter.use_mathtext : True # When True, use mathtext for scientific notation.
+#axes.unicode_minus  : True    # use unicode for the minus symbol rather than hyphen.  See
+                               # http://en.wikipedia.org/wiki/Plus_and_minus_signs#Character_codes
+axes.prop_cycle : cycler('color', [5DA5DA, FAA43A, 60BD68, F17CB0, B2912F, B276B2, DECF3F, F15854, 4D4D4D])
 										# 5DA5DA (blue)
 										# FAA43A (orange)
 										# 60BD68 (green)
@@ -252,7 +248,7 @@ axes.prop_cycle    : 5DA5DA, FAA43A, 60BD68, F17CB0, B2912F, B276B2, DECF3F, F15
 axes.xmargin        : 0  # x margin.  See `axes.Axes.margins`
 axes.ymargin        : 0  # y margin See `axes.Axes.margins`
 
-polaraxes.grid      : True    # display grid on polar axes
+polaraxes.grid       : True    # display grid on polar axes
 #axes3d.grid         : True    # display grid on 3d axes
 
 ### TICKS
