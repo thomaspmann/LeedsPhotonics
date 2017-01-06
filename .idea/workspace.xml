@@ -49,8 +49,8 @@
       <file leaf-file-name="journal.mplstyle" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/journal.mplstyle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="236" column="107" lean-forward="false" selection-start-line="236" selection-start-column="107" selection-end-line="236" selection-end-column="107" />
+            <state relative-caret-position="445">
+              <caret line="236" column="111" lean-forward="true" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -411,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483732149578</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="functionised quickplot&#10;">
+      <created>1483732507742</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1483732507742</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/journal.mplstyle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="236" column="107" lean-forward="false" selection-start-line="236" selection-start-column="107" selection-end-line="236" selection-end-column="107" />
+        <state relative-caret-position="445">
+          <caret line="236" column="111" lean-forward="true" selection-start-line="236" selection-start-column="111" selection-end-line="236" selection-end-column="111" />
           <folding />
         </state>
       </provider>
