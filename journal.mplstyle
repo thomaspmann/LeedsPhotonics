@@ -1,5 +1,5 @@
 ### MATPLOTLIBRC FORMAT
-#
+# http://fraserlab.com/2014/08/20/Figures-with-Python/
 # This file is best viewed in a editor which supports python mode
 # syntax highlighting. Blank lines, or lines starting with a comment
 # symbol, are ignored, as are trailing comments.  Other lines must
