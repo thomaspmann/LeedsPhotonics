@@ -132,6 +132,28 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
 
 
 def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
+    # Journal plotting style
+    plt.style.use('https://raw.githubusercontent.com/mn14tm/Notebooks/master/journalThomas.mplstyle')
+
+    # http://blog.dmcdougall.co.uk/publication-ready-the-first-time-beautiful-reproducible-plots-with-matplotlib/
+
+    WIDTH = 246.0  # the number latex spits out when typing: \the\linewidth
+    FACTOR = 0.9  # the fraction of the width you'd like the figure to occupy
+    fig_width_pt = WIDTH * FACTOR
+
+    inches_per_pt = 1.0 / 72.27
+    golden_ratio = (np.sqrt(5) - 1.0) / 2.0  # because it looks good
+
+    fig_width_in = fig_width_pt * inches_per_pt  # figure width in inches
+    fig_height_in = fig_width_in * golden_ratio  # figure height in inches
+    fig_dims = [fig_width_in, fig_height_in]  # fig dims as a list
+
+    # Update rcParams for figure size
+    params = {
+        'figure.figsize': fig_dims,
+    }
+    plt.rcParams.update(params)
+
     plt.figure()
     x = np.linspace(1E-4, 1, 200)     # r
     y = np.linspace(1E-4, 0.2, 200)     # n20
@@ -156,18 +178,18 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     #                   origin=origin,
     #                   hold='on')
 
-    plt.xlabel('r')
-    plt.ylabel('$n_{2,0}/n$')
+    plt.xlabel('Reflectance (\%)')
+    plt.ylabel('N$_1$(0)/N$_1$')
     # Make a colorbar for the ContourSet returned by the contourf call.
-    cbar = plt.colorbar(CS,format='%.3f')
-    cbar.ax.set_ylabel('Measured monoexponential lifetime')
+    cbar = plt.colorbar(CS,format='%.2f')
+    cbar.ax.set_ylabel('Lifetime (ms)')
     # cbar.ax.ticklabel_format(useOffset=False)
     # Add the contour line levels to the colorbar
     # cbar.add_lines(CS2)
 
     # plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.2f'
     #           % (tau, sigma_12, sigma_21, n, d, rho))
-    plt.savefig('Images/contourfplot.png', dpi=900)
+    plt.savefig('Images/contourfplot')
 
     plt.show()
 
