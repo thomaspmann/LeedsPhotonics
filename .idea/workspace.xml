@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/T2_purcell_factor_total.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/.ipynb_checkpoints/Creatore Method-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/.ipynb_checkpoints/Polman Method-checkpoint.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Air (400mA 10ms).txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Air (400mA 1ms).txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Air (400mA).txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Creatore Method.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Polman Method.ipynb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Water (400mA 10ms).txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Water (400mA 1ms).txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/QuantumEfficiency/Water (400mA).txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuantumEfficiency/.ipynb_checkpoints/Creatore Method-checkpoint.ipynb" afterPath="$PROJECT_DIR$/QuantumEfficiency/.ipynb_checkpoints/Creatore Method-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/QuantumEfficiency/Creatore Method.ipynb" afterPath="$PROJECT_DIR$/QuantumEfficiency/Creatore Method.ipynb" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -518,7 +509,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483980344461</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="QE creatore method">
+      <created>1483980410662</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1483980410662</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="ToolWindowManager">
