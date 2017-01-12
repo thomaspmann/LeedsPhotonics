@@ -175,7 +175,7 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
 if __name__ == "__main__":
 
     # Journal plotting style
-    plt.style.use('https://raw.githubusercontent.com/mn14tm/Notebooks/master/journalThomas.mplstyle')
+    plt.style.use('seaborn-paper', 'https://raw.githubusercontent.com/mn14tm/Notebooks/master/journalThomas.mplstyle')
 
     # http://blog.dmcdougall.co.uk/publication-ready-the-first-time-beautiful-reproducible-plots-with-matplotlib/
 
