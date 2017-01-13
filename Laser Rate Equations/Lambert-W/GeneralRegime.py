@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+from skimage.util.dtype import img_as_bool
 
 from tqdm import tqdm
 from scipy.special import lambertw
@@ -170,7 +171,6 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     plt.savefig('Images/contourfplot')
 
     plt.show()
-
 
 if __name__ == "__main__":
 
