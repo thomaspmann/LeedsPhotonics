@@ -301,7 +301,7 @@ mathtext.default : regular # The default font to use for math.
                                    # according to the user's locale.
                                    # For example, use ',' as a decimal
                                    # separator in the fr_FR locale.
-axes.formatter.use_mathtext : True # When True, use mathtext for scientific
+# axes.formatter.use_mathtext : True # When True, use mathtext for scientific
                                      # notation.
 #axes.formatter.useoffset      : True    # If True, the tick label formatter
                                          # will default to labeling ticks relative

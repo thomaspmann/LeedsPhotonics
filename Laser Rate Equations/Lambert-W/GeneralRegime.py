@@ -147,7 +147,7 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     lv = 1000  # Levels of colours
     CS = plt.contourf(X*100, Y, Z, lv,
                       # levels=np.arange(0, 100, 5),
-                      cmap=plt.cm.plasma,
+                      # cmap=plt.cm.plasma,
                       origin=origin)
 
     # CS2 = plt.contour(CS,
@@ -158,10 +158,16 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
 
     plt.xlim(0, 100)
     plt.xlabel('Reflectance (\%)')
-    plt.ylabel('N$_1$(0)/N$_1$')
+    plt.ylabel('N$_1$(0)/N')
     # Make a colorbar for the ContourSet returned by the contourf call.
     cbar = plt.colorbar(CS, format='%.2f')
     cbar.ax.set_ylabel('Lifetime (ms)')
+
+    # from matplotlib import ticker
+    # tick_locator = ticker.MaxNLocator(nbins=6)
+    # cbar.locator = tick_locator
+    # cbar.update_ticks()
+
     # cbar.ax.ticklabel_format(useOffset=False)
     # Add the contour line levels to the colorbar
     # cbar.add_lines(CS2)
@@ -173,13 +179,8 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     plt.show()
 
 if __name__ == "__main__":
-
-    # Journal plotting style
-    plt.style.use('seaborn-paper', 'https://raw.githubusercontent.com/mn14tm/Notebooks/master/journalThomas.mplstyle')
-
-    # http://blog.dmcdougall.co.uk/publication-ready-the-first-time-beautiful-reproducible-plots-with-matplotlib/
-
-    WIDTH = 246.0  # the number latex spits out when typing: \the\linewidth
+    # Set figure size
+    WIDTH = 246.0  # the number (in pt) latex spits out when typing: \the\linewidth
     FACTOR = 0.9  # the fraction of the width you'd like the figure to occupy
     fig_width_pt = WIDTH * FACTOR
 
@@ -192,6 +193,11 @@ if __name__ == "__main__":
 
     # Update rcParams for figure size
     params = {
+        'font.size': 9.0,
+        'text.usetex': True,
+        'savefig.dpi': 1200,
+        'savefig.format': 'pdf',
+        'savefig.bbox': 'tight',
         'figure.figsize': fig_dims,
     }
     plt.rcParams.update(params)
@@ -200,7 +206,7 @@ if __name__ == "__main__":
     t = np.linspace(0, 100, 100)
 
     # Define material parameters:
-    rho = 0.217/3         # Density of Er ions (*1E21 cm^-3)
+    rho = 0.217         # Density of Er ions (*1E21 cm^-3)
     tau = 11.9#.12         # Radiative decay rate
     d = 0.98E-4         # Thickness of slab (cm)
     sigma_12 = 4.1      # Absorption cross-section (*1E-21 cm^2)
@@ -208,7 +214,7 @@ if __name__ == "__main__":
     n = 1               # Total number of active ions (i.e.,clustering)
 
     # Multiply photon path length
-    # d *= 250
+    d *= 250
 
     contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
     #
