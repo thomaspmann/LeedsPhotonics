@@ -34,7 +34,7 @@ def fit_decay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     popt, pcov = curve_fit(model_func, t, y, guess)   # Fit using Levenberg-Marquardt algorithm
 
     # Return Measured Lifetime (ms)
-    return popt[1]
+    return popt[0]
 
 
 def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
@@ -146,7 +146,7 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
     # origin = 'upper'
     lv = 1000  # Levels of colours
     CS = plt.contourf(X*100, Y, Z, lv,
-                      # levels=np.arange(0, 100, 5),
+                      # levels=np.arange(0, 0.15, 0.001),
                       # cmap=plt.cm.plasma,
                       origin=origin)
 
@@ -174,7 +174,7 @@ def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
 
     # plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.2f'
     #           % (tau, sigma_12, sigma_21, n, d, rho))
-    plt.savefig('Images/contourfplot')
+    # plt.savefig('Images/contourfplot')
 
     plt.show()
 
