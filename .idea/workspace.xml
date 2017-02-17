@@ -2,15 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Teaching-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Widget-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/convolution-Copy1-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Teaching.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Widget.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/convolution-Copy1.ipynb" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/Desktop/github/leeds-photonics/photonics/spectrometer.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lifetmm/Images/t2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lifetmm/Images/t2_fig4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lifetmm/Images/t2_guided.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Lifetmm/Images/t2_leaky.png" afterPath="" />
+      <change type="MOVED" beforePath="$USER_HOME$/Desktop/github/leeds-photonics/photonics/fluorescence.py" afterPath="$USER_HOME$/Desktop/github/leeds-photonics/photonics/photodiode.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Data/.ipynb_checkpoints/join CSVs-checkpoint.ipynb" afterPath="$PROJECT_DIR$/../Lifetmm/Data/.ipynb_checkpoints/join CSVs-checkpoint.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Data/Screening.CSV" afterPath="$PROJECT_DIR$/../Lifetmm/Data/Screening.CSV" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Data/T-series.csv" afterPath="$PROJECT_DIR$/../Lifetmm/Data/T-series.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Data/fp.csv" afterPath="$PROJECT_DIR$/../Lifetmm/Data/fp.csv" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Data/join CSVs.ipynb" afterPath="$PROJECT_DIR$/../Lifetmm/Data/join CSVs.ipynb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Data/log.txt" afterPath="$PROJECT_DIR$/../Lifetmm/Data/log.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/T_series.py" afterPath="$PROJECT_DIR$/../Lifetmm/Examples/T_series.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/creatore.py" afterPath="$PROJECT_DIR$/../Lifetmm/Examples/creatore.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/erbium_film.py" afterPath="$PROJECT_DIR$/../Lifetmm/Examples/erbium_film.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/examples.py" afterPath="$PROJECT_DIR$/../Lifetmm/Examples/examples.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/polman.py" afterPath="$PROJECT_DIR$/../Lifetmm/Examples/polman.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/test.py" afterPath="$PROJECT_DIR$/../Lifetmm/Examples/test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig13a.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig13a.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig13b.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig13b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig3.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig4.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig5.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig6.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig8.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Images/creatore_fig9.png" afterPath="$PROJECT_DIR$/../Lifetmm/Images/creatore_fig9.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/HelperFunctions.py" afterPath="$PROJECT_DIR$/../Lifetmm/lifetmm/HelperFunctions.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/MiscScripts/fresnel_solver.py" afterPath="$PROJECT_DIR$/../Lifetmm/lifetmm/MiscScripts/fresnel_solver.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/SpontaneousEmissionRate.py" afterPath="$PROJECT_DIR$/../Lifetmm/lifetmm/SpontaneousEmissionRate.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/TransferMatrix.py" afterPath="$PROJECT_DIR$/../Lifetmm/lifetmm/TransferMatrix.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/journalPlotting.py" afterPath="$PROJECT_DIR$/../Lifetmm/lifetmm/journalPlotting.py" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/github/T-Series/T12andT13/T12 and T13.ipynb" afterPath="$USER_HOME$/Desktop/github/T-Series/T12andT13/T12 and T13.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lifetmm/lifetmm/__init__.py" afterPath="$PROJECT_DIR$/../Lifetmm/lifetmm/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notebooks.iml" afterPath="$PROJECT_DIR$/.idea/Notebooks.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Fitting/Theoretical Decay Fitting/ExponentialFitting.ipynb" afterPath="$PROJECT_DIR$/Fitting/Theoretical Decay Fitting/ExponentialFitting.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McCumber/spectrum_lifetime_insert.ipynb" afterPath="$PROJECT_DIR$/McCumber/spectrum_lifetime_insert.ipynb" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,28 +58,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GeneralRegime.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Laser Rate Equations/Lambert-W/GeneralRegime.py">
+      <file leaf-file-name="TransferMatrix.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/TransferMatrix.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <element signature="e#1094#1770#0" expanded="false" />
-                <element signature="e#1835#3166#0" expanded="false" />
-                <element signature="e#3236#3928#0" expanded="false" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="journalPlotting.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/journalPlotting.py">
+      <file leaf-file-name="SpontaneousEmissionRate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/SpontaneousEmissionRate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="330">
+              <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelperFunctions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/HelperFunctions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="T_series.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/T_series.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1228">
+              <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+              <folding>
+                <element signature="e#62#93#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creatore.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/creatore.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7065">
+              <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,11 +145,12 @@
       <find>linew</find>
       <find>svg.image_no</find>
       <find>figure.fi</find>
+      <find>set_lea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Lifetmm" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,16 +171,28 @@
         <option value="$PROJECT_DIR$/matplotlibrc" />
         <option value="$PROJECT_DIR$/journalPlotting.py" />
         <option value="$PROJECT_DIR$/Laser Rate Equations/Lambert-W/GeneralRegime.py" />
+        <option value="$USER_HOME$/Desktop/github/leeds-photonics/photonics/fluorescence.py" />
+        <option value="$USER_HOME$/Desktop/github/leeds-photonics/photonics/spectrometer.py" />
+        <option value="$USER_HOME$/Desktop/github/leeds-photonics/photonics/photodiode.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/test.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/__init__.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/HelperFunctions.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/TransferMatrix.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/creatore.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods/SpontaneousEmissionRate.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/Examples/T_series.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/TransferMatrix.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/Examples/test.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/lifetmm/SpontaneousEmissionRate.py" />
+        <option value="$PROJECT_DIR$/../Lifetmm/Examples/T_series.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1280" />
+    <option name="height" value="796" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -126,6 +210,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -136,7 +221,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -145,7 +229,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Lifetmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Notebooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lifetmm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -171,27 +269,32 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Lifetmm/lifetmm" />
+      <recent name="$USER_HOME$/Desktop/github/leeds-photonics/photonics" />
       <recent name="D:\GitHub\Notebooks\" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../Lifetmm/lifetmm" />
+      <recent name="$PROJECT_DIR$/../Lifetmm" />
+      <recent name="$PROJECT_DIR$/../Lifetmm/lifetmm/Methods" />
       <recent name="D:\GitHub\Notebooks\Fitting\Lambert-W\Images" />
       <recent name="D:\GitHub\Notebooks\PicoscopeWithPython" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.GeneralRegime (1)">
-    <configuration default="false" name="GeneralRegime (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.T_series">
+    <configuration default="false" name="T_series" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Laser Rate Equations/Lambert-W" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Lifetmm/Examples" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Notebooks" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Laser Rate Equations/Lambert-W/GeneralRegime.py" />
+      <module name="Lifetmm" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Lifetmm/Examples/T_series.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -331,11 +434,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.GeneralRegime (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.T_series" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.GeneralRegime (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.T_series" />
       </list>
     </recent_temporary>
   </component>
@@ -588,17 +691,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="796" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16965227" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20571883" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721382" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15800866" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22294372" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15767045" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2215909" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5042614" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122030236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3963068" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892805" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -606,12 +711,10 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819384" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3975771" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -656,23 +759,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/accumulateSweeps.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope2.py" />
-    <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/accumulateSweeps.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope.py" />
-    <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/testPicoscope2.py" />
-    <entry file="file://$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/accumulateSweeps.py" />
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/billy.py" />
     <entry file="file://$PROJECT_DIR$/PicoscopeWithPython/quickplot.py" />
@@ -739,32 +830,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/site-packages/colorama/ansitowin32.py" />
+    <entry file="file://$PROJECT_DIR$/Laser Rate Equations/Lambert-W/GeneralRegime.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/journalPlotting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="390">
           <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/github/leeds-photonics/photonics/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/github/leeds-photonics/photonics/fluorescence.py" />
+    <entry file="file://$USER_HOME$/Desktop/github/leeds-photonics/photonics/photodiode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/__init__.py" />
+    <entry file="file://$USER_HOME$/Desktop/github/leeds-photonics/photonics/spectrometer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="121" column="0" lean-forward="true" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" lean-forward="false" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/HelperFunctions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="56" column="48" lean-forward="false" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/Anaconda3/Lib/site-packages/colorama/ansitowin32.py">
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/creatore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="7065">
+          <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laser Rate Equations/Lambert-W/GeneralRegime.py">
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/TransferMatrix.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1094#1770#0" expanded="false" />
-            <element signature="e#1835#3166#0" expanded="false" />
-            <element signature="e#3236#3928#0" expanded="false" />
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/lifetmm/SpontaneousEmissionRate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="55" column="48" lean-forward="false" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/T_series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1228">
+          <caret line="145" column="0" lean-forward="true" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
+          <folding>
+            <element signature="e#62#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
