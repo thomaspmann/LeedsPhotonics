@@ -4,8 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../Lifetmm/.idea/Lifetmm.iml" filepath="$PROJECT_DIR$/../Lifetmm/.idea/Lifetmm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Notebooks.iml" filepath="$PROJECT_DIR$/.idea/Notebooks.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/github/T-Series/.idea/T-Series.iml" filepath="$USER_HOME$/Desktop/github/T-Series/.idea/T-Series.iml" />
-      <module fileurl="file://$USER_HOME$/Desktop/github/leeds-photonics/.idea/leeds-photonics.iml" filepath="$USER_HOME$/Desktop/github/leeds-photonics/.idea/leeds-photonics.iml" />
     </modules>
   </component>
 </project>
