@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # CHANGE THIS TO THE PIXEL WIDTH IN mm
-PIXEL_WIDTH = 0.6
+PIXEL_WIDTH = 0.5
 # CHANGE THIS TO THE GRID WIDTH IN mm
 DIVISOR = 6
 # GRID_WIDTH = PIXEL_WIDTH / DIVISOR
@@ -85,10 +85,10 @@ def array_to_gcode(array, save_name='qr'):
 
 if __name__ == "__main__":
     # Make qr code array
-    url = pyqrcode.create('http://ultramatis.com', error='H')
+    url = pyqrcode.create('ultramatis.com', error='M')
     url.png('ultramatis.png')
     array = np.array(url.code)
-
+    print(array.shape)
     # size of the QR code in mm
     qr_size = PIXEL_WIDTH * array.shape[0]
     print("QR Code x and y size: {:.2f} mm".format(qr_size))

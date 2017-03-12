@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="rejig">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ultramatis/GRID-CUT.PGM" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ultramatis/ultramatis.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lifetmm/Data/Er-only.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Lifetmm/Data/fp_nWG.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ultramatis/QR_code.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ultramatis/qr.gcode" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ultramatis/test.ipynb" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Ultramatis/QR Code.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Ultramatis/write_qr.gcode" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lifetmm/Data/T-series.csv" afterPath="$PROJECT_DIR$/../Lifetmm/Data/T-series.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lifetmm/Data/join CSVs.ipynb" afterPath="$PROJECT_DIR$/../Lifetmm/Data/join CSVs.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ultramatis/ultramatis.png" afterPath="$PROJECT_DIR$/Ultramatis/ultramatis.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ultramatis/.ipynb_checkpoints/QR Code-checkpoint.ipynb" afterPath="$PROJECT_DIR$/Ultramatis/.ipynb_checkpoints/QR Code-checkpoint.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ultramatis/QR_code.py" afterPath="$PROJECT_DIR$/Ultramatis/QR_code.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ultramatis/qr.gcode" afterPath="$PROJECT_DIR$/Ultramatis/qr.gcode" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,10 +64,11 @@
       <file leaf-file-name="T_series.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/T_series.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="122" column="16" lean-forward="false" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+            <state relative-caret-position="2715">
+              <caret line="185" column="16" lean-forward="false" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
               <folding>
                 <element signature="e#62#93#0" expanded="true" />
+                <marker date="1489056909000" expanded="true" signature="6612:6641" ph="..." />
               </folding>
             </state>
           </provider>
@@ -87,8 +77,8 @@
       <file leaf-file-name="QR_code.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ultramatis/QR_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+            <state relative-caret-position="75">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -200,6 +190,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,17 +235,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Ultramatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -721,7 +711,21 @@
       <option name="project" value="LOCAL" />
       <updated>1487334969141</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="ultramatis">
+      <created>1489056846085</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1489056846085</updated>
+    </task>
+    <task id="LOCAL-00037" summary="data update">
+      <created>1489056895511</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1489056895511</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TodoView">
@@ -742,7 +746,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.5059571" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15767045" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2215909" sideWeight="0.48768863" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2059659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2059659" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122030236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -790,6 +794,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="setup microfluidics" />
     <MESSAGE value="functionised quickplot&#10;" />
     <MESSAGE value="matplotlib rc params files" />
@@ -799,7 +804,9 @@
     <MESSAGE value="mplrc update" />
     <MESSAGE value="updated for mpl 2.0" />
     <MESSAGE value="rejig" />
-    <option name="LAST_COMMIT_MESSAGE" value="rejig" />
+    <MESSAGE value="ultramatis" />
+    <MESSAGE value="data update" />
+    <option name="LAST_COMMIT_MESSAGE" value="data update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -942,10 +949,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Lifetmm/Examples/T_series.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="122" column="16" lean-forward="false" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="16" />
+        <state relative-caret-position="2715">
+          <caret line="185" column="16" lean-forward="false" selection-start-line="185" selection-start-column="16" selection-end-line="185" selection-end-column="16" />
           <folding>
             <element signature="e#62#93#0" expanded="true" />
+            <marker date="1489056909000" expanded="true" signature="6612:6641" ph="..." />
           </folding>
         </state>
       </provider>
@@ -954,7 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7065">
           <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,9 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,14 +976,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="45" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4086" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ultramatis/QR_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="79" column="47" lean-forward="true" selection-start-line="79" selection-start-column="47" selection-end-line="79" selection-end-column="47" />
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
