@@ -5,7 +5,6 @@
     <orderEntry type="jdk" jdkName="CondaPython" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="leeds-photonics" />
-    <orderEntry type="module" module-name="Lifetmm" />
     <orderEntry type="module" module-name="T-Series" />
   </component>
   <component name="TestRunnerService">

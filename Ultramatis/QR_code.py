@@ -31,7 +31,9 @@ def array_to_gcode(array, save_name='qr'):
             res += 'G0 X{0:.4f}\n'.format(offset * PIXEL_WIDTH)
         if length != 0:
             res += 'G0 X{0:.4f}\n'.format(dx)
+            res += 'G0 Y1\n'
             res += 'G1 X{0:.4f} F{1}\n'.format(length * PIXEL_WIDTH - 2*dx, speed)
+            res += 'G0 Y-1\n'
             res += 'G0 X{0:.4f}\n'.format(dx)
         return res
 
@@ -78,6 +80,8 @@ def array_to_gcode(array, save_name='qr'):
         print('G21', file=text_file)
         # Set coordinate system to 0,0,0
         print('G92 X0 Y0 Z0\n', file=text_file)
+        # Begin with laser focus 1mm off the sample so no ablation (drawing a line will refocus)
+        print('G0 Y-1', file=text_file)
         # Write coordinates
         print(coord, file=text_file)
         # End program
@@ -95,3 +99,5 @@ if __name__ == "__main__":
 
     # Write to G code
     array_to_gcode(array)
+
+    # Online G-code viewer: http://nraynaud.github.io/webgcode/
