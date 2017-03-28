@@ -1,6 +1,5 @@
 import pyqrcode
 import numpy as np
-import matplotlib.pyplot as plt
 
 # CHANGE THIS TO THE PIXEL WIDTH IN mm
 PIXEL_WIDTH = 0.5
