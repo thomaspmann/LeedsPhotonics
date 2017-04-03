@@ -1,5 +1,5 @@
-import pyqrcode
 import numpy as np
+import pyqrcode
 
 # CHANGE THIS TO THE PIXEL WIDTH IN mm
 PIXEL_WIDTH = 0.5
@@ -86,17 +86,41 @@ def array_to_gcode(array, save_name='qr'):
         # End program
         print('M2', file=text_file)
 
-if __name__ == "__main__":
+
+def qr_array():
     # Make qr code array
     url = pyqrcode.create('ultramatis.com', error='M')
     url.png('ultramatis.png')
     array = np.array(url.code)
-    print(array.shape)
+    return array
+
+
+def test_array():
+    # Make Checkerboard
+    array = np.array([[1, 0] * 4, [0, 1] * 4] * 2)
+    array = np.append(array, np.zeros([1, 8]), axis=0)
+    array = np.append(array, np.ones([1, 8]), axis=0)
+    return array
+
+
+if __name__ == "__main__":
+    # Make Array
+    # array = qr_array()
+    array = test_array()
+
+    # Plot Array
+    # plt.imshow(array, cmap='Greys')
+    # plt.show()
+
+    # OPTIONAL: #  Flip array (invert)
+    # array = 1 - array
+
     # size of the QR code in mm
-    qr_size = PIXEL_WIDTH * array.shape[0]
-    print("QR Code x and y size: {:.2f} mm".format(qr_size))
+    qr_size = [PIXEL_WIDTH * array.shape[0], PIXEL_WIDTH * array.shape[1]]
+    print("QR Code x and y size: {1:.2f}, {0:.2f} mm".format(*qr_size))
+    print("Pixels: {}".format(array.shape))
 
     # Write to G code
-    array_to_gcode(array)
+    array_to_gcode(array, save_name='test_array')
 
     # Online G-code viewer: http://nraynaud.github.io/webgcode/
