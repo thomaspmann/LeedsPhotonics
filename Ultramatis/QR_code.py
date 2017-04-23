@@ -15,7 +15,7 @@ def array_to_gcode(array, save_name='qr'):
     def new_line():
         return 'G0 Z{0:.4f}\n'.format(GRID_WIDTH)
 
-    def line(offset, length, speed=0.25, reverse=False):
+    def line(offset, length, speed=1.0, reverse=False):
         # Account for spot size
         dx = SPOT_SIZE/2
 
@@ -75,8 +75,10 @@ def array_to_gcode(array, save_name='qr'):
     with open(save_name + ".gcode", "w") as text_file:
         # Set to relative distance mode
         print('G91', file=text_file)
-        # Set units to mm
-        print('G21', file=text_file)
+        # Set to metric (units in mm)
+        print('G71', file=text_file)
+        # Seconds
+        print('G76', file=text_file)
         # Set coordinate system to 0,0,0
         print('G92 X0 Y0 Z0\n', file=text_file)
         # Begin with laser focus 1mm off the sample so no ablation (drawing a line will refocus)
@@ -105,8 +107,8 @@ def test_array():
 
 if __name__ == "__main__":
     # Make Array
-    # array = qr_array()
-    array = test_array()
+    array = qr_array()
+    # array = test_array()
 
     # Plot Array
     # plt.imshow(array, cmap='Greys')
@@ -121,6 +123,7 @@ if __name__ == "__main__":
     print("Pixels: {}".format(array.shape))
 
     # Write to G code
-    array_to_gcode(array, save_name='test_array')
+    array_to_gcode(array, save_name='QR_code_1mm_per_s')
+    # array_to_gcode(array, save_name='test_array')
 
     # Online G-code viewer: http://nraynaud.github.io/webgcode/
