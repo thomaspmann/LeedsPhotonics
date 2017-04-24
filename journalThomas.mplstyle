@@ -190,7 +190,7 @@ font.stretch        : normal
 # settings for axes and ticks. Special text sizes can be defined
 # relative to font.size, using the following values: xx-small, x-small,
 # small, medium, large, x-large, xx-large, larger, or smaller
-font.size           : 9.0
+font.print_size           : 9.0
 #font.serif          : DejaVu Serif, Bitstream Vera Serif, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
 font.serif          : Computer Modern Roman, Times, Palatino, New Century Schoolbook, Bookman
 #font.sans-serif     : DejaVu Sans, Bitstream Vera Sans, Lucida Grande, Verdana, Geneva, Lucid, Arial, Helvetica, Avant Garde, sans-serif
@@ -372,7 +372,7 @@ mathtext.default : regular # The default font to use for math.
 # see http://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
 #xtick.top            : False   # draw ticks on the top side
 #xtick.bottom         : True   # draw ticks on the bottom side
-xtick.major.size     : 4      # major tick size in points
+xtick.major.print_size     : 4      # major tick size in points
 #xtick.minor.size     : 2      # minor tick size in points
 xtick.major.width    : 1    # major tick width in points
 #xtick.minor.width    : 0.6    # minor tick width in points
@@ -389,7 +389,7 @@ xtick.direction      : in    # direction: in, out, or inout
 
 #ytick.left           : True   # draw ticks on the left side
 #ytick.right          : False  # draw ticks on the right side
-ytick.major.size     : 4      # major tick size in points
+ytick.major.print_size     : 4      # major tick size in points
 #ytick.minor.size     : 2      # minor tick size in points
 ytick.major.width    : 1    # major tick width in points
 #ytick.minor.width    : 0.6    # minor tick width in points

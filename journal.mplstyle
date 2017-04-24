@@ -127,7 +127,7 @@ font.stretch        : normal
 # settings for axes and ticks. Special text sizes can be defined
 # relative to font.size, using the following values: xx-small, x-small,
 # small, medium, large, x-large, xx-large, larger, or smaller
-font.size           : 12.0
+font.print_size           : 12.0
 font.serif          : Times, Palatino, New Century Schoolbook, Bookman, Computer Modern Roman
 font.sans-serif     : Arial, Helvetica, Avant Garde, Computer Modern Sans serif
 font.cursive        : Zapf Chancery, Sand, cursive
@@ -253,8 +253,8 @@ polaraxes.grid       : True    # display grid on polar axes
 
 ### TICKS
 # see http://matplotlib.org/api/axis_api.html#matplotlib.axis.Tick
-xtick.major.size     : 4      # major tick size in points
-xtick.minor.size     : 2      # minor tick size in points
+xtick.major.print_size     : 4      # major tick size in points
+xtick.minor.print_size     : 2      # minor tick size in points
 xtick.major.width    : 1    # major tick width in points
 xtick.minor.width    : 1    # minor tick width in points
 xtick.major.pad      : 6      # distance to major tick label in points
@@ -263,8 +263,8 @@ xtick.major.pad      : 6      # distance to major tick label in points
 #xtick.labelsize      : medium # fontsize of the tick labels
 xtick.direction      : out     # direction: in, out, or inout
 
-ytick.major.size     : 4      # major tick size in points
-ytick.minor.size     : 2      # minor tick size in points
+ytick.major.print_size     : 4      # major tick size in points
+ytick.minor.print_size     : 2      # minor tick size in points
 ytick.major.width    : 1    # major tick width in points
 ytick.minor.width    : 1    # minor tick width in points
 ytick.major.pad      : 6      # distance to major tick label in points
