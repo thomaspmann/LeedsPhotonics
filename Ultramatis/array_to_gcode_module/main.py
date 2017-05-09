@@ -55,11 +55,13 @@ class ArrayToGcode:
         if offset != 0:
             res += 'G0 Z{0:.4f}\n'.format(offset * self.pixel_width)
         if length != 0:
-            res += 'G0 Z{0:.4f}\n'.format(dz)
-            res += 'G0 Y-{0:.2f}\n'.format(self.dy)
+            if dz != 0:
+                res += 'G0 Z{0:.4f}\n'.format(dz)
+            res += 'G0 Y{0:.2f}\n'.format(-self.dy)
             res += 'G1 Z{0:.4f} F{1}\n'.format(length*self.pixel_width - 2*dz, self.speed)
             res += 'G0 Y{0:.2f}\n'.format(self.dy)
-            res += 'G0 Z{0:.4f}\n'.format(dz)
+            if dz != 0:
+                res += 'G0 Z{0:.4f}\n'.format(dz)
         return res
 
     def row_to_gcode(self, row, reverse=False):
@@ -116,7 +118,7 @@ class ArrayToGcode:
             # Write coordinates
             print(coord, file=text_file)
             # End with laser focus on the target surface again
-            print('G0 Y-{0:.2f}\n'.format(self.dy), file=text_file)
+            print('G0 Y{0:.2f}\n'.format(-self.dy), file=text_file)
             # End program
             print('M2', file=text_file)
 

@@ -18,7 +18,7 @@ def flat():
     # gcode.invert()
     # gcode.plot_array()
     # gcode.to_file(save_name='QR_code_1mm_per_s')
-    gcode.to_file(save_name='test_array')
+    gcode.to_file(save_name='test_array_dy_positive')
 
 
 def angled():
