@@ -5,32 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/camfr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wgm/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wgm/core.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wgm/examples.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/CRLB-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ExponentialFitting-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/LaserRateEquation-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Runge-Kutta-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/SiliconePhantom-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/TauDistributionFitting-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/WaveguidesBook-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/convolution-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/iCell-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CQED/.ipynb_checkpoints/Fabry-Perot-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Doping Concentration.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EDX Analysis.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/EDX analysis.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Interactive Plotting.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/AbsorptionCrossSection-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/AbsorptionCrossSection-checkpoint_CPE-PC2063_1.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/FWHM-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/spectrum_lifetime_insert-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python_for_Data_Analysis/.ipynb_checkpoints/Chp5-checkpoint.ipynb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Notebooks.iml" afterPath="$PROJECT_DIR$/.idea/Notebooks.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Notebooks.iws" />
@@ -60,7 +34,11 @@
                   <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="26" />
                   <folding>
                     <element signature="e#0#69#0" expanded="true" />
-                    <element signature="e#662#1187#0" expanded="false" />
+                    <marker date="1494341280526" expanded="true" signature="166:653" ph="..." />
+                    <marker date="1494341280526" expanded="false" signature="669:1199" ph="..." />
+                    <marker date="1494341280526" expanded="true" signature="674:711" ph="..." />
+                    <marker date="1494341280526" expanded="true" signature="1058:1150" ph="..." />
+                    <marker date="1494341280526" expanded="true" signature="1244:1318" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -729,7 +707,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493047893371</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="whispering mode galery simulations">
+      <created>1494341257392</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1494341257392</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TodoView">
@@ -814,7 +799,8 @@
     <MESSAGE value="ultramatis" />
     <MESSAGE value="data update" />
     <MESSAGE value="ultramatis cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="ultramatis cleanup" />
+    <MESSAGE value="whispering mode galery simulations" />
+    <option name="LAST_COMMIT_MESSAGE" value="whispering mode galery simulations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -999,7 +985,11 @@
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="26" />
           <folding>
             <element signature="e#0#69#0" expanded="true" />
-            <element signature="e#662#1187#0" expanded="false" />
+            <marker date="1494341280526" expanded="true" signature="166:653" ph="..." />
+            <marker date="1494341280526" expanded="false" signature="669:1199" ph="..." />
+            <marker date="1494341280526" expanded="true" signature="674:711" ph="..." />
+            <marker date="1494341280526" expanded="true" signature="1058:1150" ph="..." />
+            <marker date="1494341280526" expanded="true" signature="1244:1318" ph="..." />
           </folding>
         </state>
       </provider>
