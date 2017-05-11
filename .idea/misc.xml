@@ -3,5 +3,5 @@
   <component name="IpnbSettings">
     <option name="URL" value="http://127.0.0.1:8889" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.1 (C:\Users\mn14tm\AppData\Local\Continuum\Miniconda3\python.exe)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="CondaPython" project-jdk-type="Python SDK" />
 </project>

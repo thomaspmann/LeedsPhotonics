@@ -1,40 +1,41 @@
-import numpy as np
 import matplotlib.pyplot as plt
-from skimage.util.dtype import img_as_bool
-
-from tqdm import tqdm
-from scipy.special import lambertw
+import numpy as np
 from numpy import exp, e
+from scipy.special import lambertw
+from tqdm import tqdm
 
 
-def lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
+def lambert_decay(r, n20):
 
     alpha = (1 + r/2) * rho * d
-    A = alpha * (sigma_12 + sigma_21)
-    B = 1 + alpha * sigma_12 * n
+    a = alpha * (sigma_12 + sigma_21)
+    b = 1 + alpha * sigma_12 * n
 
-    x = (t/(B*tau)) + (A*n20/B)
-    arg = -A*n20*exp(-x)/B
+    x = (t / (b * tau)) + (a * n20 / b)
+    arg = -a * n20 * exp(-x) / b
 
-    # Check that result is real
-    assert min(arg) >= -1/e, \
-        'Lambert W Argument will give an imaginary result.'
-    return -B*lambertw(arg).real/A
+    assert min(arg) >= -1 / e, 'Lambert W Argument will give an imaginary result.'
+    return -b * lambertw(arg).real / a
 
 
-def fit_decay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
+def fit_decay(r, n20):
     from scipy.optimize import curve_fit
 
+    # Create the simulated y dataa
+    y = lambert_decay(r, n20)
+
+    # Define the model function to fit (mono-exponential decay)
     def model_func(x, a, b, c):
         return a*exp(-x/b)+c
 
-    y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+    # Guess for a, b, c coefficients
+    guess = [max(y) - min(y), tau, 0]
 
-    guess = [max(y)-min(y), tau, 0]  # Guess for a, b, c coefficients
-    popt, pcov = curve_fit(model_func, t, y, guess)   # Fit using Levenberg-Marquardt algorithm
+    # Fit using Levenberg-Marquardt algorithm
+    popt, pcov = curve_fit(model_func, t, y, guess)
 
-    # Return Measured Lifetime (ms)
-    return popt[0]
+    # Return the fit [a, b, c]
+    return popt
 
 
 def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
@@ -48,7 +49,7 @@ def varyFeedback(t, tau, sigma_12, sigma_21, n, n20, rho, d):
     plt.xlabel('time (ms)')
 
     for r in [0.001, 0.5, 1]:
-        y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+        y = lambert_decay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
         # y = y/max(y)
         plt.plot(t, y, label=r)
 
@@ -85,7 +86,7 @@ def video(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     i = 0
     for r in tqdm(np.linspace(1E-4, 1, 200)):
         i += 1
-        y = lambertDecay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
+        y = lambert_decay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
 
         plt.figure()
         plt.axhline(1/np.e, ls='--', color='k')
@@ -130,55 +131,57 @@ def threedPlot(t, tau, sigma_12, sigma_21, n, n20, r, rho, d):
     plt.show()
 
 
-def contourPlot(t, tau, sigma_12, sigma_21, n, rho, d):
-
-    plt.figure()
-    x = np.linspace(1E-4, 1, 200)       # r
+def contour_plot():
+    ########################################
+    # Calculate popt
+    ########################################
+    x = np.linspace(1E-4, 1, 200)  # r
     y = np.linspace(1E-4, 0.15, 200)     # n20
     X, Y = np.meshgrid(x, y)
+    res = [fit_decay(r, n20) for r, n20 in zip(np.ravel(X), np.ravel(Y))]
+    res = np.array(res)
 
-    zs = np.array([fit_decay(t, tau, sigma_12, sigma_21, n, n20, r, rho, d)
-                   for r, n20 in zip(np.ravel(X), np.ravel(Y))])
-
+    ########################################
+    # Plot lifetime contour plot
+    ########################################
+    zs = res[:, 1]
     Z = zs.reshape(X.shape)
-
+    fig, ax = plt.subplots()
     origin = 'lower'
     # origin = 'upper'
     lv = 1000  # Levels of colours
-    CS = plt.contourf(X*100, Y, Z, lv,
-                      # levels=np.arange(0, 0.15, 0.001),
-                      # cmap=plt.cm.plasma,
+    CS = plt.contourf(X * 100, Y, Z, lv,
+                      # levels=np.linspace(0, 0.15, num=100, endpoint=True),
                       origin=origin)
-
-    # CS2 = plt.contour(CS,
-    #                   levels=CS.levels[::4],
-    #                   colors='k',
-    #                   origin=origin,
-    #                   hold='on')
-
-    plt.xlim(0, 100)
-    plt.xlabel('Reflectance (\%)')
-    plt.ylabel('N$_1$(0)/N')
-    # Make a colorbar for the ContourSet returned by the contourf call.
+    ax.set_xlim(0, 100)
+    ax.set_xlabel('Reflectance (%)')
+    ax.set_ylabel('N$_1$(0)/N')
     cbar = plt.colorbar(CS, format='%.2f')
     cbar.ax.set_ylabel('Lifetime (ms)')
+    # plt.savefig('Images/contour_plot_tau')
 
-    # from matplotlib import ticker
-    # tick_locator = ticker.MaxNLocator(nbins=6)
-    # cbar.locator = tick_locator
-    # cbar.update_ticks()
-
-    # cbar.ax.ticklabel_format(useOffset=False)
-    # Add the contour line levels to the colorbar
-    # cbar.add_lines(CS2)
-
-    # plt.title('$\\tau$ %.1f, $\\sigma_{12}$ %.1f, $\\sigma_{21}$ %.1f, n %.1f, d %.1f cm, $\\rho$ %.2f'
-    #           % (tau, sigma_12, sigma_21, n, d, rho))
-    # plt.savefig('Images/contourfplot')
-
+    ########################################
+    # Plot amplitude contour plot
+    ########################################
+    zs = res[:, 0]
+    Z = zs.reshape(X.shape)
+    fig, ax = plt.subplots()
+    origin = 'lower'
+    # origin = 'upper'
+    lv = 1000  # Levels of colours
+    CS = plt.contourf(X * 100, Y, Z, lv,
+                      levels=np.linspace(0, 0.15, num=100, endpoint=True),
+                      origin=origin)
+    ax.set_xlim(0, 100)
+    ax.set_xlabel('Reflectance (%)')
+    ax.set_ylabel('N$_1$(0)/N')
+    cbar = plt.colorbar(CS, format='%.2f')
+    cbar.ax.set_ylabel('Amplitude (A.U.)')
+    plt.savefig('Images/contour_plot_A')
     plt.show()
 
-if __name__ == "__main__":
+
+def journal_plotting():
     # Set figure size
     WIDTH = 246.0  # the number (in pt) latex spits out when typing: \the\linewidth
     FACTOR = 0.9  # the fraction of the width you'd like the figure to occupy
@@ -202,21 +205,25 @@ if __name__ == "__main__":
     }
     plt.rcParams.update(params)
 
+
+if __name__ == "__main__":
+    # journal_plotting()
+
     # Time to simulate over
     t = np.linspace(0, 100, 100)
 
     # Define material parameters:
+    tau = 10  # Radiative decay rate
     rho = 0.217         # Density of Er ions (*1E21 cm^-3)
-    tau = 11.9#.12         # Radiative decay rate
+    n = 1  # Total number of active ions (i.e.,clustering)
     d = 0.98E-4         # Thickness of slab (cm)
     sigma_12 = 4.1      # Absorption cross-section (*1E-21 cm^2)
     sigma_21 = 5.0      # Emission cross-section (*1E-21 cm^2)
-    n = 1               # Total number of active ions (i.e.,clustering)
 
     # Multiply photon path length
     d *= 250
 
-    contourPlot(t, tau, sigma_12, sigma_21, n, rho, d)
+    contour_plot()
     #
     # n20 = 0.2*n         # Fraction of excited ions at t=0
     # r = 0.5             # Reflectivity of top layer
