@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Laser Rate Equations/upconversion/upconversion.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/CRLB-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ExponentialFitting-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/LaserRateEquation-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Runge-Kutta-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/SiliconePhantom-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/TauDistributionFitting-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/WaveguidesBook-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/convolution-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/iCell-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CQED/.ipynb_checkpoints/Fabry-Perot-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/AbsorptionCrossSection-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/AbsorptionCrossSection-checkpoint_CPE-PC2063_1.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/FWHM-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/spectrum_lifetime_insert-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python_for_Data_Analysis/.ipynb_checkpoints/Chp5-checkpoint.ipynb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Laser Rate Equations/upconversion/upconversion.py" afterPath="$PROJECT_DIR$/Laser Rate Equations/upconversion/cooperative.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Notebooks.iws" />
@@ -70,12 +55,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upconversion.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Laser Rate Equations/upconversion/upconversion.py">
+      <file leaf-file-name="cooperative.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Laser Rate Equations/upconversion/cooperative.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="22" column="111" lean-forward="false" selection-start-line="22" selection-start-column="111" selection-end-line="22" selection-end-column="111" />
+              <folding>
+                <element signature="e#373#404#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -171,6 +158,7 @@
         <option value="$PROJECT_DIR$/wgm/examples.py" />
         <option value="$PROJECT_DIR$/Laser Rate Equations/Lambert-W/GeneralRegime.py" />
         <option value="$PROJECT_DIR$/Laser Rate Equations/upconversion/upconversion.py" />
+        <option value="$PROJECT_DIR$/Laser Rate Equations/upconversion/cooperative.py" />
       </list>
     </option>
   </component>
@@ -386,7 +374,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Notebooks" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Laser Rate Equations/upconversion/upconversion.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\mn14tm\Code\Notebooks\Laser Rate Equations\upconversion\cooperative.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -824,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494506865367</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="tidy and added upconversion model">
+      <created>1494949069942</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1494949069942</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TodoView">
@@ -912,7 +907,8 @@
     <MESSAGE value="ultramatis cleanup" />
     <MESSAGE value="whispering mode galery simulations" />
     <MESSAGE value="tidy" />
-    <option name="LAST_COMMIT_MESSAGE" value="tidy" />
+    <MESSAGE value="tidy and added upconversion model" />
+    <option name="LAST_COMMIT_MESSAGE" value="tidy and added upconversion model" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1130,11 +1126,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Laser Rate Equations/upconversion/upconversion.py">
+    <entry file="file://$PROJECT_DIR$/Laser Rate Equations/upconversion/cooperative.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="22" column="111" lean-forward="false" selection-start-line="22" selection-start-column="111" selection-end-line="22" selection-end-column="111" />
+          <folding>
+            <element signature="e#373#404#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

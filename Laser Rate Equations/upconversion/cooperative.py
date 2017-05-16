@@ -1,3 +1,12 @@
+"""
+Simulate the effect of cooperative upconversion between Er ions on the PL decay time. 
+
+In this process, energy is transferred between two excited Er ions, leaving one of both ions de-excited.
+This applies where a high fraction of excited Er ions is present.
+
+[1] Concentration quenching in erbium implanted alkali silicate glasses, Snoeks, E. Kik, P G, Polman, A
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.integrate import odeint
@@ -11,12 +20,11 @@ def decay_fn(t, a, tau, c):
 
 def dndt(n, t, tau=10, C=3E-24, N=1.5E19):
     """
-    Rate equation for population inversion when upconversion is present.
+    Rate equation for population inversion when upconversion is present. Default params for sodalime glass [1].
     
     :param n: fractional population inversion
-    :param t: 
     :param tau: Spontaneous de-excitation rate in absence of migration-quenching (tau_rad + tau_nrad) [ms]
-    :param C: C_Er-Er [m3/s] for sodalime glass
+    :param C:  Upconversion coefficient [m3/s].
     :param N: Er concentration [at./cm3]
     :return: dn/dt
     """
