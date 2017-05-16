@@ -18,7 +18,7 @@ def decay_fn(t, a, tau, c):
     return a * np.exp(-t / tau) + c
 
 
-def dndt(n, t, tau=10, C=3E-24, N=1.5E19):
+def dndt(n, t, tau=10, C=3E-24, N=1.5E21):
     """
     Rate equation for population inversion when upconversion is present. Default params for sodalime glass [1].
     
