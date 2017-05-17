@@ -13,8 +13,10 @@ import numpy as np
 from numpy import pi
 
 
-def w(w_r=42, w_i=0, C=2.3E-51, N_q=8E18, N_er=1.5E21):
+def w(w_r=42, w_i=0, C=2.3E-39, N_q=0.81E19, N_er=1.5E21):
     """
+    [1] Concentration quenching in erbium implanted alkali silicate glasses, Snoeks, E. Kik, P G, Polman, A
+    
     Assumptions:
         (1) The absorption spectrum of a quenching site is identical to the absorption spectrum of an Er 3+ ion
             in sodalime glass. This simplification may be made in the case that the quenching mechanism is via 
@@ -29,25 +31,21 @@ def w(w_r=42, w_i=0, C=2.3E-51, N_q=8E18, N_er=1.5E21):
     
     :param w_r: Radiative PL decay rate (i.e. 1/tau) of
     :param w_i: Non-radiative decay rate ~= 0
-    :param C: Er-Er interaction constant
+    :param C: Er-Er interaction constant [cm6/s]
     :param N_q: Density of quenching sites [cm-3]
     :param N_er: Density of Er ions [cm-3]
-    :return: 
+    :return: Decay rate, w
     """
-
     return w_r + w_i + 8 * pi * C * N_q * N_er
 
 
 if __name__ == "__main__":
     # Material parameters
-    # C = 3E-24
-    # N_er = 1.5E21
-
     N_er_list = np.linspace(1E20, 15E20, num=10)
+
     w_list = []
     for N_er in N_er_list:
-        # TODO: why *1E21?...
-        w_list.append(w(N_er=N_er, C=2.3E-51 * 1E12))
+        w_list.append(w(N_er=N_er))
 
     fig, ax = plt.subplots()
     ax.plot(N_er_list, w_list)
