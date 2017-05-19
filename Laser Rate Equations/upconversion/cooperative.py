@@ -78,7 +78,8 @@ def dn2dt(n2, t, tau=10E-3, c_up=3E-18, n_er=1.4E20, lam_pump=980, i_p=0):
 def plot_migration():
     """Plot the decay rate as a function of Er concentration due to energy migration."""
     # Material parameters
-    N_er_list = np.linspace(1E19, 1.5E21, num=1000)
+    # N_er_list = np.linspace(1E19, 1.5E21, num=1000)
+    N_er_list = np.linspace(1E17, 1.5E19, num=1000)
 
     w_list = []
     for N_er in N_er_list:
@@ -143,5 +144,5 @@ def plot_quenching():
 
 
 if __name__ == "__main__":
-    # plot_migration()
-    plot_quenching()
+    plot_migration()
+    # plot_quenching()
