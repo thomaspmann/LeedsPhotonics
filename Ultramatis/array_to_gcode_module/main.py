@@ -34,6 +34,7 @@ class ArrayToGcode:
         import matplotlib.pyplot as plt
         plt.figure()
         plt.imshow(self.array, cmap='Greys')
+        plt.savefig('../array')
         plt.show()
 
     # Functions for converting array to gcode

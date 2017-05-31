@@ -26,4 +26,9 @@ def test_array():
     array = np.append(array, np.ones([1, y_size]), axis=0)
     array = np.append(array, np.zeros([1, y_size]), axis=0)
     array = np.append(array, np.ones([1, y_size]), axis=0)
+
+    # Add a line to the RHS (white then black) of 1px in diameter.
+    x_size = np.shape(array)[0]
+    array = np.append(array, np.zeros([x_size, 1]), axis=1)
+    array = np.append(array, np.ones([x_size, 1]), axis=1)
     return array
