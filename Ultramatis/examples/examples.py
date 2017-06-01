@@ -12,7 +12,7 @@ def flat():
                          pixel_width=0.7,
                          lines_per_pixel=6,
                          speed=1.0,
-                         dy=-1,
+                         dy=-3,
                          spot_size=0)
     gcode.print_size()
     # gcode.invert()

@@ -114,12 +114,16 @@ class ArrayToGcode:
             print('G76', file=text_file)
             # Set starting coordinate system to 0,0,0
             print('G92 X0 Y0 Z0\n', file=text_file)
+            # Move the laser 0.8mm off the surface of the bottle
+            print('G0 Y-0.8', file=text_file)
             # Begin with laser focus off the target surface so no ablation (drawing a line will refocus)
             print('G0 Y{0:.2f}'.format(self.dy), file=text_file)
             # Write coordinates
             print(coord, file=text_file)
             # End with laser focus on the target surface again
             print('G0 Y{0:.2f}\n'.format(-self.dy), file=text_file)
+            # Move the laser away from the bottle
+            print('G0 Y-5', file=text_file)
             # End program
             print('M2', file=text_file)
 
