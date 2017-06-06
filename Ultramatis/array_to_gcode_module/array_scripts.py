@@ -3,6 +3,7 @@ import numpy as np
 
 
 def qr_array():
+    """Create a QR code array linking to ultramatis.com with error M (medium)"""
     import pyqrcode
     # Make qr code array
     url = pyqrcode.create('ultramatis.com', error='M')
@@ -31,4 +32,36 @@ def test_array():
     x_size = np.shape(array)[0]
     array = np.append(array, np.zeros([x_size, 1]), axis=1)
     array = np.append(array, np.ones([x_size, 1]), axis=1)
+    return array
+
+
+def alphanumeric(n=8):
+    """Generate n length alphanumeric QR code array"""
+    import random
+    from datetime import datetime
+    random.seed(datetime.now())
+
+    from string import digits, ascii_uppercase
+    punctuation = ' $%*+-./:'
+    id = ''.join(random.choice(digits + ascii_uppercase + punctuation) for _ in range(n))
+    print(id)
+
+    # Convert array to QR code
+    import pyqrcode
+    # Make qr code array
+    url = pyqrcode.create(id, error='M')
+    url.png('id.png')
+    array = np.array(url.code)
+    return array
+
+
+def square():
+    """Just a black pixel"""
+    array = np.array([[1]])
+    return array
+
+
+def black_white():
+    """Black then white pixel"""
+    array = np.array([[1, 0]])
     return array
