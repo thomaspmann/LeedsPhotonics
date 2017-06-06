@@ -4,14 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py" line="88" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="tidy and added upconversion model">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ultramatis/examples/angledBottle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Ultramatis/examples/line_arrays.py" />
+    <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="ultramatis">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ultramatis/array_to_gcode_module/array_scripts.py" afterPath="$PROJECT_DIR$/Ultramatis/array_to_gcode_module/array_scripts.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py" afterPath="$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ultramatis/examples/examples.py" afterPath="$PROJECT_DIR$/Ultramatis/examples/examples.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.ipynb" afterPath="$PROJECT_DIR$/test.ipynb" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,10 +31,10 @@
           <file leaf-file-name="angledBottle.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Ultramatis/examples/angledBottle.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="447">
-                  <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+                <state relative-caret-position="423">
+                  <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
                   <folding>
-                    <element signature="e#56#157#0" expanded="true" />
+                    <element signature="e#56#131#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -52,12 +47,22 @@
           <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+                <state relative-caret-position="195">
+                  <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
-                    <element signature="e#7017#10730#0" expanded="false" />
+                    <marker date="1496776717000" expanded="false" signature="7049:10767" ph="..." />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="qr_angled.gcode" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Ultramatis/qr_angled.gcode">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="135">
+                  <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2765" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -93,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Fitting/Lambert-W/GeneralRegime.py" />
         <option value="$PROJECT_DIR$/matplotlibrc.py" />
         <option value="$PROJECT_DIR$/journal" />
         <option value="$PROJECT_DIR$/journal2.mplstyle.py" />
@@ -142,8 +146,9 @@
         <option value="$PROJECT_DIR$/Ultramatis/examples/line_arrays.py" />
         <option value="$PROJECT_DIR$/Ultramatis/examples/examples.py" />
         <option value="$PROJECT_DIR$/Ultramatis/square_smoke.gcode" />
-        <option value="$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py" />
+        <option value="$PROJECT_DIR$/Ultramatis/qr_angled.gcode" />
         <option value="$PROJECT_DIR$/Ultramatis/examples/angledBottle.py" />
+        <option value="$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py" />
       </list>
     </option>
   </component>
@@ -811,14 +816,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22051696" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.4940429" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.5059571" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3260274" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26712328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16341992" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26712328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1630137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21917808" sideWeight="0.48768863" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.122030236" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1061,19 +1065,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ultramatis/examples/angled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Ultramatis/examples/angled.py" />
     <entry file="file://$PROJECT_DIR$/Ultramatis/square.gcode">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1081,7 +1077,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="337" column="19" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="355" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1089,9 +1084,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="28" column="22" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#101#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1111,31 +1104,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py">
+    <entry file="file://$PROJECT_DIR$/Ultramatis/examples/angledBottle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="69" column="33" lean-forward="false" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        <state relative-caret-position="423">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#7017#10730#0" expanded="false" />
+            <element signature="e#56#131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ultramatis/qr_angled.gcode">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2765" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ultramatis/examples/angledBottle.py">
+    <entry file="file://$PROJECT_DIR$/Ultramatis/array_to_gcode_module/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="39" column="34" lean-forward="false" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        <state relative-caret-position="195">
+          <caret line="68" column="14" lean-forward="false" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="14" />
           <folding>
-            <element signature="e#56#157#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1496776717000" expanded="false" signature="7049:10767" ph="..." />
           </folding>
         </state>
       </provider>

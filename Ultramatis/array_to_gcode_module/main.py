@@ -1,5 +1,5 @@
 import numpy as np
-from numpy import deg2rad, sin, cos, pi
+from numpy import deg2rad, sin, cos
 
 
 class ArrayToGcode:
@@ -58,16 +58,16 @@ class ArrayToGcode:
     # Functions for converting array to gcode
     def new_line(self):
         if self.rad:
-            dx = self.grid_width * sin(pi / 2 - self.rad)
-            dy = self.grid_width * cos(pi / 2 - self.rad)
+            dx = self.grid_width * cos(self.rad)
+            dy = self.grid_width * sin(self.rad)
             return 'G0 X{0:.4f} Y{1:.4f}\n'.format(dx, dy)
         else:
             return 'G0 X{0:.4f}\n'.format(self.grid_width)
 
     def line(self, offset, length, reverse=False):
         # Shift focus when going from white to black - perpendicular to target hence sin and cos switched
-        dx = self.d_focus * sin(-self.rad)
-        dy = self.d_focus * cos(-self.rad)
+        dx = -self.d_focus * sin(self.rad)
+        dy = self.d_focus * cos(self.rad)
 
         # Padding of black lines to account for spot size
         pad = self.spot_size / 2
@@ -150,21 +150,22 @@ class ArrayToGcode:
                 # Begin with laser focus off the target surface so no drawing/ablation (drawing a line will refocus)
                 # Note perpendicular to target hence sin and cos switched
                 if self.d_focus:
-                    dx = self.d_focus * sin(-self.rad)
-                    dy = self.d_focus * cos(-self.rad)
+                    dx = self.grid_width * cos(self.rad)
+                    dy = self.grid_width * sin(self.rad)
                     print('G1 X{0:.4f} Y{1:.4f} F10'.format(dx, dy), file=text_file)
                 # Write coordinates
                 print(coord, file=text_file)
                 # End with laser focus on the target surface again
                 if self.d_focus:
-                    dx = self.d_focus * sin(self.rad)
-                    dy = self.d_focus * cos(self.rad)
+                    dx = self.grid_width * cos(self.rad)
+                    dy = self.grid_width * sin(self.rad)
                     print('G1 X{0:.4f} Y{1:.4f} F10\n'.format(-dx, -dy), file=text_file)
                 # Move the laser away from the bottle
                 if self.final_offset:
-                    dx = self.final_offset * sin(self.rad)
-                    dy = self.final_offset * cos(self.rad)
-                    print('G1 X{0:.4} Y{1:.4} F7'.format(-dx, -dy), file=text_file)
+                    # TODO: error here
+                    dx = -self.final_offset * cos(self.rad)
+                    dy = -self.final_offset * sin(self.rad)
+                    print('G1 X{0:.4} Y{1:.4} F7'.format(dx, dy), file=text_file)
                 # End program
                 print('M2', file=text_file)
 
