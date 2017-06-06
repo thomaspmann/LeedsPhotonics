@@ -1,5 +1,5 @@
 import numpy as np
-from numpy import deg2rad, sin, cos
+from numpy import deg2rad, sin, cos, pi
 
 
 class ArrayToGcode:
@@ -57,18 +57,13 @@ class ArrayToGcode:
 
     # Functions for converting array to gcode
     def new_line(self):
-        if self.rad:
-            dx = self.grid_width * cos(self.rad)
-            dy = self.grid_width * sin(self.rad)
-            return 'G0 X{0:.4f} Y{1:.4f}\n'.format(dx, dy)
-        else:
-            return 'G0 X{0:.4f}\n'.format(self.grid_width)
+        """Shift to the next line to draw. Note dx and dy negative so if angled starting from top corner."""
+        dx, dy = xy_decomp(self.grid_width, self.rad)
+        return 'G0 X{0:.4f} Y{1:.4f}\n'.format(dx, dy)
 
     def line(self, offset, length, reverse=False):
         # Shift focus when going from white to black - perpendicular to target hence sin and cos switched
-        dx = -self.d_focus * sin(self.rad)
-        dy = self.d_focus * cos(self.rad)
-
+        dx, dy = xy_decomp(self.d_focus, pi / 2 - self.rad)
         # Padding of black lines to account for spot size
         pad = self.spot_size / 2
 
@@ -86,11 +81,11 @@ class ArrayToGcode:
             if pad:
                 res += 'G1 Z{0:.4f} F10\n'.format(pad)
             # Bring laser into focus for drawing
-            res += 'G1 X{0:.4f} Y{1:.4f} F10\n'.format(-dx, -dy)
+            res += 'G1 X{0:.4f} Y{1:.4f} F10\n'.format(-dx, dy)
             # Draw line
             res += 'G1 Z{0:.4f} F{1:.4f}\n'.format(length * self.pixel_width - 2 * pad, self.speed)
             # Move laser out of focus for no drawing
-            res += 'G1 X{0:.4f} Y{1:.4f} F10\n'.format(dx, dy)
+            res += 'G1 X{0:.4f} Y{1:.4f} F10\n'.format(dx, -dy)
             if pad:
                 res += 'G1 Z{0:.4f} F10\n'.format(pad)
         return res
@@ -144,30 +139,30 @@ class ArrayToGcode:
                 print('G92 X0 Y0 Z0\n', file=text_file)
                 # Move the laser focus off the surface of the bottle to distance required for drawing and not etching
                 if self.focal_offset:
-                    dx = self.focal_offset * sin(self.rad)
-                    dy = self.focal_offset * cos(self.rad)
-                    print('G1 X{0:.4f} Y{1:.4f} F10'.format(-dx, -dy), file=text_file)
+                    dx, dy = xy_decomp(self.focal_offset, pi / 2 - self.rad)
+                    print('G1 X{0:.4f} Y{1:.4f} F10'.format(dx, -dy), file=text_file)
                 # Begin with laser focus off the target surface so no drawing/ablation (drawing a line will refocus)
                 # Note perpendicular to target hence sin and cos switched
                 if self.d_focus:
-                    dx = self.grid_width * cos(self.rad)
-                    dy = self.grid_width * sin(self.rad)
-                    print('G1 X{0:.4f} Y{1:.4f} F10'.format(dx, dy), file=text_file)
+                    dx, dy = xy_decomp(self.d_focus, pi / 2 - self.rad)
+                    print('G1 X{0:.4f} Y{1:.4f} F10'.format(dx, -dy), file=text_file)
                 # Write coordinates
                 print(coord, file=text_file)
                 # End with laser focus on the target surface again
                 if self.d_focus:
-                    dx = self.grid_width * cos(self.rad)
-                    dy = self.grid_width * sin(self.rad)
-                    print('G1 X{0:.4f} Y{1:.4f} F10\n'.format(-dx, -dy), file=text_file)
+                    dx, dy = xy_decomp(self.d_focus, pi / 2 - self.rad)
+                    print('G1 X{0:.4f} Y{1:.4f} F10\n'.format(-dx, dy), file=text_file)
                 # Move the laser away from the bottle
                 if self.final_offset:
-                    # TODO: error here
-                    dx = -self.final_offset * cos(self.rad)
-                    dy = -self.final_offset * sin(self.rad)
-                    print('G1 X{0:.4} Y{1:.4} F7'.format(dx, dy), file=text_file)
+                    dx, dy = xy_decomp(self.final_offset, pi / 2 - self.rad)
+                    print('G1 X{0:.4} Y{1:.4} F10'.format(-dx, dy), file=text_file)
                 # End program
                 print('M2', file=text_file)
+
+
+def xy_decomp(d, theta):
+    """Calculate dx and dy required to shift focus by d parallel tothe target"""
+    return d * sin(theta), d * cos(theta)
 
 
 class ArrayOfLines:

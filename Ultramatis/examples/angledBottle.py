@@ -33,7 +33,7 @@ def angled_qr():
                          pixel_width=0.7,
                          lines_per_pixel=6,
                          speed=3.0,
-                         d_focus=-1.0,
+                         d_focus=1.0,
                          spot_size=0,
                          focal_offset=0.0,
                          final_offset=5.0,
