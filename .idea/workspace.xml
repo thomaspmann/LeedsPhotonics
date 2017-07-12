@@ -2,43 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7e3b9be-dbe4-401b-abc1-e25c3fd5a2d4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/CRLB-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ExponentialFitting-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/LaserRateEquation-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Runge-Kutta-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/SiliconePhantom-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/TauDistributionFitting-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/WaveguidesBook-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/convolution-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.ipynb_checkpoints/iCell-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/CQED/.ipynb_checkpoints/Fabry-Perot-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/AbsorptionCrossSection-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/AbsorptionCrossSection-checkpoint_CPE-PC2063_1.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/FWHM-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCumber/.ipynb_checkpoints/spectrum_lifetime_insert-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Python_for_Data_Analysis/.ipynb_checkpoints/Chp5-checkpoint.ipynb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - FTIR/Borofloat.DPT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - FTIR/Corning 7980.DPT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - FTIR/Green Float.DPT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - FTIR/Infrasil 301.DPT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - FTIR/Spectrosil 2000.DPT" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Borofloat.Sample.Raw.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Borofloat.Sample.Raw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Corning 7980.Sample.Raw.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Corning 7980.Sample.Raw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Green Float.Sample.Raw.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Green Float.Sample.Raw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Infrasil 301.Sample.Raw.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Infrasil 301.Sample.Raw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Spectrosil 2000.Sample.Raw.asc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/data/Spectrosil 2000.Sample.Raw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/sp/Borofloat.Sample.sp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/sp/Corning 7980.Sample.sp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/sp/Infrasil 301.Sample.sp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/sp/Spectrosil 2000.Sample.sp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Substrate/Substrates - UVVIS/table.csv" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Substrate/FTIR/Borofloat.DPT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Substrate/FTIR/Corning 7980.DPT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Substrate/FTIR/Green Float.DPT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Substrate/FTIR/Infrasil 301.DPT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Substrate/FTIR/Spectrosil 2000.DPT" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Substrate/analysis.ipynb" afterPath="$PROJECT_DIR$/Substrate/analysis.ipynb" />
     </list>
     <ignored path="Notebooks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -202,6 +171,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Substrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notebooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Notebooks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Substrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FTIR" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -723,7 +710,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496780730947</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="substrate update">
+      <created>1499878919270</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1499878919270</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView">
@@ -837,7 +831,8 @@
     <MESSAGE value="tidy and added upconversion model" />
     <MESSAGE value="still working but think definitions are wrong" />
     <MESSAGE value="fixed and makes sense. See photo of book for description of method" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed and makes sense. See photo of book for description of method" />
+    <MESSAGE value="substrate update" />
+    <option name="LAST_COMMIT_MESSAGE" value="substrate update" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
