@@ -1,11 +1,8 @@
-import numpy as np
 from scipy.optimize import curve_fit
+from scipy.integrate import quad
 from scipy.stats import norm
-
-
-def load_data():
-    return xdata, ydata
-
+import numpy as np
+import matplotlib.pyplot as plt
 
 # Eq 15
 def f(z):
@@ -20,10 +17,21 @@ def f(z):
 def func(z, beta, x0):
     return z / (np.sqrt(2) * beta) + x0
 
+def R(xb, w, x0):
+    beta = 1/w
+    
+    def integrand(x, beta, x0):
+        return np.exp(-beta**2 * (x-x0)**2)
+
+    I = quad(integrand, -np.inf, xb, args=(beta, x0))[0]
+    return np.sqrt(np.pi/beta**2) * I
+
 
 if __name__ == "__main__":
-    # Load x and y data
-    xdata, ydata = load_data()
+    # Load experimental data [position, intensity]
+    data = np.genfromtxt('measurement.txt', delimiter='\t', skip_header=1)
+    xdata = data[:, 0]
+    ydata = data[:, 1]
 
     # Normalise y data
     ydata /= max(ydata)
@@ -31,5 +39,16 @@ if __name__ == "__main__":
     # Calc z from y data (No need to use Eq15 approximation)
     zdata = norm.ppf(ydata)
 
+    # Fit
     popt, pcov = curve_fit(func, zdata, ydata)
-    print(popt)
+    print('Fitted: w = {:g}, x0 = {:g}'.format(1/popt[0], popt[1]))
+    
+    # Plot fit and data
+    fig, ax = plt.subplots()
+    ax.plot(xb, y, '.', label='raw data')
+    
+    xb = np.linspace(min(x), max(x), num=50)
+    R_vectorized = np.vectorize(R)
+    yfit = R_vectorized(xb, 1/popt[0], popt[1])
+    ax.plot(xb, yfit, label='fitted')
+    plt.legend()
