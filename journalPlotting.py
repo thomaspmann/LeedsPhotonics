@@ -1,10 +1,7 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
-
+# Update plot parameters for publication
 def update():
     # Set figure size
-    WIDTH = 246.0  # the number (in pt) latex spits out when typing: \the\linewidth
+    WIDTH = 412.56  # the number (in pt) latex spits out when typing: \the\linewidth
     FACTOR = 0.9  # the fraction of the width you'd like the figure to occupy
     fig_width_pt = WIDTH * FACTOR
 
@@ -17,11 +14,15 @@ def update():
 
     # Update rcParams for figure size
     params = {
-        'font.size': 9.0,
+        'font.size': 11.0,
         'text.usetex': True,
-        'savefig.dpi': 1200,
+        'font.family': 'serif',
+        'font.serif': 'cm',
+        'savefig.dpi': 600,
         'savefig.format': 'pdf',
         'savefig.bbox': 'tight',
         'figure.figsize': fig_dims,
     }
     plt.rcParams.update(params)
+    
+update()
