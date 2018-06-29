@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54ed08d9-620c-453e-9a45-0b59e91e0130" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Lasers/Pulsed Laser Deposition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lasers/Pulsed Laser Deposition.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Particle Analysis/Particle Size Distribution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Particle Analysis/Particle Size Distribution.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Particle Analysis/Results.png" beforeDir="false" afterPath="$PROJECT_DIR$/Particle Analysis/Results.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Photonic Chip.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SiliconePhantom.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Borofloat.DPT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Corning 7980.DPT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Green Float.DPT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Infrasil 301.DPT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Spectrosil 2000.DPT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/Polman analysis.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/Polman analysis.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Borofloat.Sample.Raw.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Borofloat.Sample.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Corning 7980.Sample.Raw.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Corning 7980.Sample.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Green Float.Sample.Raw.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Green Float.Sample.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Infrasil 301.Sample.Raw.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Infrasil 301.Sample.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Spectrosil 2000.Sample.Raw.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Spectrosil 2000.Sample.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Borofloat.Sample.sp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Corning 7980.Sample.sp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Infrasil 301.Sample.sp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Spectrosil 2000.Sample.sp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/table.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/0% or Blocked Beam Baseline.Correction.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/0% or Blocked Beam Baseline.Correction.Raw.sp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/100% or 0 Absorbance Baseline.Correction.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/100% or 0 Absorbance Baseline.Correction.Raw.sp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/Info.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/Spectrosil 2000.Sample.Raw.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/Spectrosil 2000.Sample.Raw.sp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/notebook.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Substrate/ppm (Quartz).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/Thesis Figures.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/journal.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/journal2.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/journalPlotting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Thesis/journalThomas.mplstyle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Wave Plates.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/convolution.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/iCell.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.ipynb" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-20" />
+    <option name="y" value="70" />
+    <option name="width" value="1936" />
+    <option name="height" value="978" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Notebooks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Notebooks" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/Notebooks.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/EDX Analysis.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Photonic Chip.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/conversions.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/convolution.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/iCell.ipynb</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/2D Gaussian Fit.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Calibration.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/GaussianFit.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180607100023370.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180607100120031.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180607100830877.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180607101025556.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180614093150230.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180614093954170.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180614094059066.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180615092959365.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180615093253002.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180615094845278.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180615094845278_processed.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180615095457952.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Images/180615095457952_processed.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Spot cropped.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/Spot.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/example.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Gaussian Fit/fit.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Knife-Edge/beam_waist.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Knife-Edge/measurement.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Beam Profile/Knife-Edge/simulate.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Calculations.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Pulsed Laser Deposition.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/2-Level Fixed intensity feedback.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/2-Level Fluorescence Feedback.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/3-level.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/3-levelTo2-level.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/FittingDataExperimental/Data/t15_100ms_500ma_emptycell2.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/FittingDataExperimental/Test.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/GeneralRegime.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/Images/contour_plot_A.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/Lambert-W lifetime.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/fittingLambertW.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/populationInversionRegime.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/Lambert-W/tester.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/spectrum_T9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/upconversion.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/upconversion/cooperative.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Lasers/Rate Equations/upconversion/energy_migration.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/Particle Size Distribution.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/Results.csv</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/Results.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/nm Hitachi ImageJ scale calib.ijm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/test_img.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/test_img.tif</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/test_img.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Particle Analysis/um Hitachi ImageJ scale calib.ijm</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Photonics/CAMFR/camfr.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Photonics/CQED/Fabry-Perot.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Photonics/Waveguides/Waveguides Ch1.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Photonics/Waveguides/Waveguides Ch2.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Photonics/Waveguides/WaveguidesBook.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Air (400mA 10ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Air (400mA 1ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Air (400mA).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Creatore Method.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Jaya/Jaya's Chips.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Jaya/purcell_factor_indivd_0p125.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Jaya/purcell_factor_indivd_0p5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Jaya/purcell_factor_indivd_0p75.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Jaya/purcell_factor_indivd_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Polman Method.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/T2_purcell_factor_total.pdf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Water (400mA 10ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Water (400mA 1ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/Water (400mA).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/analysis.h5</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/spe_vs_n.npz</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficieny/tau_vs_n.npz</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Thesis/Thesis Figures.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Thesis/journal.mplstyle</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Thesis/journal2.mplstyle</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Thesis/journalPlotting.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Thesis/journalThomas.mplstyle</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Absorption Gaskett-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/CRLB-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Doping Concentration-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/EDX Analysis-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/ExponentialFitting-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Interactive Plotting-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Lambert-W lifetime-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/LaserRateEquation-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/QR Code-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Runge-Kutta-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/SiliconePhantom-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Sympy Laser Rate Eqns-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/TauDistributionFitting-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Waveguides Ch1-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/Waveguides Ch2-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/WaveguidesBook-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/convolution-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/differential equations-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.ipynb_checkpoints/iCell-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Ablation.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Absorption Gaskett.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CQED/.ipynb_checkpoints/Fabry-Perot-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/CQED/Fabry-Perot.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Knife-Edge/beam_waist.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Knife-Edge/measurement.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Knife-Edge/simulate.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/.ipynb_checkpoints/2-Level Fluorescence Feedback-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/2-Level Fixed intensity feedback.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/2-Level Fluorescence Feedback.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/3-level.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/3-levelTo2-level.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/.ipynb_checkpoints/Lambert-W lifetime-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/FittingDataExperimental/.ipynb_checkpoints/Test-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/FittingDataExperimental/Data/t15_100ms_500ma_emptycell2.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/FittingDataExperimental/Test.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/GeneralRegime.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/Images/contour_plot_A.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/Lambert-W lifetime.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/fittingLambertW.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/populationInversionRegime.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/Lambert-W/tester.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/spectrum_T9.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/upconversion.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/upconversion/cooperative.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Laser Rate Equations/upconversion/energy_migration.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/.ipynb_checkpoints/Creatore Method-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/.ipynb_checkpoints/Jaya's Chips-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/.ipynb_checkpoints/Polman Method-checkpoint.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Air (400mA 10ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Air (400mA 1ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Air (400mA).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Creatore Method.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Jaya/Jaya's Chips.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Jaya/purcell_factor_indivd_0p125.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Jaya/purcell_factor_indivd_0p5.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Jaya/purcell_factor_indivd_0p75.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Jaya/purcell_factor_indivd_1.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Polman Method.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/T2_purcell_factor_total.pdf</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Water (400mA 10ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Water (400mA 1ms).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/Water (400mA).txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/analysis.h5</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/spe_vs_n.npz</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/QuantumEfficiency/tau_vs_n.npz</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Thesis Figures.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Waveguides/Waveguides Ch1.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Waveguides/Waveguides Ch2.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Waveguides/WaveguidesBook.ipynb</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/camfr.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/convolve.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/journal.mplstyle</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/journal2.mplstyle</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/journalPlotting.py</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/journalThomas.mplstyle</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="54ed08d9-620c-453e-9a45-0b59e91e0130" name="Default" comment="" />
+      <created>1529568692837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1529568692837</updated>
+    </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1529588088556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1529588088556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13224447" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+  </component>
+</project>
