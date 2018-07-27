@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54ed08d9-620c-453e-9a45-0b59e91e0130" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Lasers/Pulsed Laser Deposition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Lasers/Pulsed Laser Deposition.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Particle Analysis/Particle Size Distribution.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Particle Analysis/Particle Size Distribution.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Particle Analysis/Results.png" beforeDir="false" afterPath="$PROJECT_DIR$/Particle Analysis/Results.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Photonic Chip.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SiliconePhantom.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Borofloat.DPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Corning 7980.DPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Green Float.DPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Infrasil 301.DPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/FTIR/Spectrosil 2000.DPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/Polman analysis.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/Polman analysis.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Borofloat.Sample.Raw.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Borofloat.Sample.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Corning 7980.Sample.Raw.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Corning 7980.Sample.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Green Float.Sample.Raw.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Green Float.Sample.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Infrasil 301.Sample.Raw.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Infrasil 301.Sample.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Spectrosil 2000.Sample.Raw.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/data/Spectrosil 2000.Sample.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Borofloat.Sample.sp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Corning 7980.Sample.sp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Infrasil 301.Sample.sp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/sp/Spectrosil 2000.Sample.sp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/Transmission/table.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/0% or Blocked Beam Baseline.Correction.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/0% or Blocked Beam Baseline.Correction.Raw.sp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/100% or 0 Absorbance Baseline.Correction.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/100% or 0 Absorbance Baseline.Correction.Raw.sp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/Info.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/Spectrosil 2000.Sample.Raw.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/UVVIS/URA/Spectrosil 2000.Sample.Raw.sp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/notebook.tex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Substrate/ppm (Quartz).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/Thesis Figures.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/journal.mplstyle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/journal2.mplstyle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/journalPlotting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Thesis/journalThomas.mplstyle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Wave Plates.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/convolution.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/iCell.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="54ed08d9-620c-453e-9a45-0b59e91e0130" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -380,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1529588088556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="organisation">
+      <created>1530260228346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530260228346</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -410,6 +371,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated" />
+    <MESSAGE value="organisation" />
+    <option name="LAST_COMMIT_MESSAGE" value="organisation" />
   </component>
 </project>
